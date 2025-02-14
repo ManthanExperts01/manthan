@@ -10,6 +10,9 @@ services:
       - "3000:3000"
     env_file:
       - ./.env
+    volumes:
+      - ./src/shared/posts:/app/src/shared/posts  # Persist blog posts
+      - ./public/images:/app/public/images
     networks:
       - app-network
 
