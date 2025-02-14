@@ -52,7 +52,7 @@ const Pricing = ({ headline, pricingDataMonthly, pricingDataYearly }: PricingPro
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
         {pricingData
-            ?.filter((_, index) => !(isSpecificPage && index === pricingData.length - 1)) // Remove last box if on target page
+            ?.filter((_, index) => !(isSpecificPage && !isMonthly && index === pricingData.length - 1)) 
             .map(
               (plan, index) =>
                 plan.active && (
