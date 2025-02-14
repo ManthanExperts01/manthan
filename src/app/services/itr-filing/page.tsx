@@ -76,7 +76,6 @@ export default function Page() {
       {<HeroBanner {...heroBannerData} />}
       {headlineDataContact2 && <HeroBannerWithForm2 {...heroBannerWithForm2Data} {...headlineDataContact2} />}
       {headlinePricing && <Pricing {...headlinePricing} />}
-      {<QuotationCTA {...quotationCTAData} />}
       {<HelpfulBlogs {...helpfulBlogsData} />}
       {<SecondaryFooter />}
       {headlineTestimonials && <Testimonials {...headlineTestimonials} />}
