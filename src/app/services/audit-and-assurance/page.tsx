@@ -38,7 +38,7 @@ const heroBannerData = {
 };
 const heroBannerWithForm2Data = {
   title:
-    'Our Team of Highly Skilled and Experienced Chartered Accountants is Committed to Upholding The Highest Standards of Compliance, Minimizing Financial and Operational Risks, and Fostering Transparency in Every Aspect of Your Business.',
+    'Premier Audit Services by a Dedicated Team of Expert CAs!',
   bullets: [
     'Ensure Statutory Compliance, Gain Clarity, and Strengthen Business Stability.',
     'Safeguard Your Business From Regulatory Challenges While Driving Growth Through Reliable, Transparent, and Insightful Financial Guidance.',
