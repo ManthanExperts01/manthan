@@ -15,10 +15,10 @@ const HeroBanner = ({ title, subtitle, image, list1, list2 }: HeroBannerProps) =
         {/* <div className="absolute inset-0 bg-[url('/images/banners/image-1.jpg')] bg-cover opacity-75 filter grayscale-50 z-0"></div> */}
         <div className="relative h-full flex items-center justify-center z-10">
           <div className=" flex flex-col gap-6 items-center justify-between">
-            <h5 className="mb-2 w-[800px] text-center font-bold text-3xl tracking-tight text-white dark:text-white lg:text-5xl">
+            <h5 className="mb-2 md:w-[800px] text-center font-bold text-3xl tracking-tight text-white dark:text-white lg:text-5xl">
               {title}
             </h5>
-            <p className="mb-3 w-[600px] font-normal text-lg text-center text-white dark:text-gray-400">{subtitle}</p>
+            <p className="mb-3 md:w-[600px] font-normal text-lg text-center text-white dark:text-gray-400">{subtitle}</p>
             <Link href="/contact" passHref>
               <Button
                 className=" border-2 bg-white p-3 text-base font-medium text-black transition duration-300 ease-in-out hover:border-white hover:bg-secondary hover:text-white"

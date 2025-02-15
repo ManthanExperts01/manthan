@@ -12,10 +12,10 @@ export const headerData: HeaderProps = {
       label: "Services",
       href: "/#services-section", // Change to absolute path
     },
-    {
-      label: "Pricing",
-      href: "/#pricing-section", // Change to absolute path
-    },
+    // {
+    //   label: "Pricing",
+    //   href: "/#pricing-section", // Change to absolute path
+    // },
     {
       label: "Contact",
       href: "/contact",

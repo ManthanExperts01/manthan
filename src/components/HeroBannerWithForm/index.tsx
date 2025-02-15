@@ -31,7 +31,7 @@ const HeroBannerWithForm = ({ headline }: HeroBannerWithFormProps) => {
               {/* <p className="subtitle inline px-2 py-1 text-white">
                   Expert tax guidance
                 </p> */}
-              <h5 className="mb-2 pt-6 text-3xl font-medium tracking-tight text-white dark:text-white lg:text-5xl">
+              <h5 className="mb-2 pt-0 text-3xl font-medium tracking-tight text-white dark:text-white lg:text-5xl">
                 Your Trusted Partner For Effective Tax Strategies & Seamless Compliances
               </h5>
             </div>

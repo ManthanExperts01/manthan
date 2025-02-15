@@ -37,7 +37,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
           </motion.p>
           <motion.div variants={scrollAnimation} className="mt-auto">
             <LinkWithAnimation
-              href="/"
+              href={`services/${feature.href}`}
               className="text-black after:bg-black"
               LinkText="Learn More"
             />
