@@ -14,14 +14,14 @@ import { IconCircleNumber1, IconCircleNumber2, IconCircleNumber3, IconCircleNumb
 // Header data
 export const headlineDataAboutSectionOne: AboutSectionOneProps = {
   headline: {
-    title: `Building trust through transparency and integrity`,
+    title: `Building Trust through Transparency and Integrity`,
     // subtitle: `There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."`,
     position: 'left',
   },
 };
 export const headlineDataAboutSectionTwo: AboutSectionTwoProps = {
   headline: {
-    title: `Building trust through transparency and integrity`,
+    title: `Building Trust through Transparency and Integrity`,
     subtitle: `Fuel your business growth and witness immediate results today. Elevate your success with our strategic solutions.`,
     // tagline: 'FAQS',
     position: 'left',
@@ -30,7 +30,7 @@ export const headlineDataAboutSectionTwo: AboutSectionTwoProps = {
 export const headlineDataFeatures: FeatureProps = {
   headline: {
     title: `Your One - Stop Destination For Expert Services`,
-    subtitle: `Experiences Tax Service Designed To Align With Your Personalized Financial Senerio, ensuring ease and accuracy every step of the way`,
+    subtitle: `Experiences Tax Service Designed To Align With Your Personalized Financial Senerio, Ensuring Ease and Accuracy Every Step of the Way`,
     position: 'center',
   },
 };
@@ -359,7 +359,7 @@ export const stepsfeatureDataCollection: StepsFeatureDataCollectionProps = {
     {
       id: 1,
       icon: IconCircleNumber1 as Icon,
-      title: 'Initial consultation & assessment ',
+      title: 'Initial Consultation & Assessment ',
       paragraph: 'Comprehensive Consultation and Assessment To Set The Foundation For Success.',
       btn: 'Learn More',
       btnLink: '/#',
@@ -367,7 +367,7 @@ export const stepsfeatureDataCollection: StepsFeatureDataCollectionProps = {
     {
       id: 2,
       icon: IconCircleNumber2 as Icon,
-      title: 'Tailored strategy development ',
+      title: 'Tailored Strategy Development ',
       paragraph: 'Customized Strategies To Meet Your Unique Needs and Goals.',
       btn: 'Learn More',
       btnLink: '/#',

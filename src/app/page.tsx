@@ -37,7 +37,7 @@ export default function Home() {
       {stepsfeatureDataCollection && <StepsFeature stepsfeatureDataCollection={stepsfeatureDataCollection} />}
       <BannerHorizontal />
       {headlineTestimonials && <Testimonials {...headlineTestimonials} />}
-      {headlinePricing && <Pricing {...headlinePricing} />}
+      {/* {headlinePricing && <Pricing {...headlinePricing} />} */}
       {faqsData && <FAQ {...faqsData} />}
       <SecondaryFooter />
 

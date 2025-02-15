@@ -42,7 +42,7 @@ const AboutSectionTwo = ({ headline }: AboutSectionTwoProps) => {
                   <Person />
                   <div>
                     <h3 className="textblack mb-4 text-2xl font-normal dark:text-white">
-                      Year-round assistance
+                      Year-Round Assistance
                     </h3>
                     <p className="textbody-color text-base font-medium">
                       From Start to Finish, We Offer Continuos Support.
@@ -53,10 +53,10 @@ const AboutSectionTwo = ({ headline }: AboutSectionTwoProps) => {
                   <Calendar />
                   <div>
                     <h3 className="textblack mb-4 text-2xl font-medium dark:text-white">
-                      Each case is handled separately
+                      Each Case is Handled Separately
                     </h3>
                     <p className="textbody-color text-base font-medium">
-                      A personalized strategy crafted exclusively for your situation.
+                      A Personalized Strategy Crafted Exclusively for your Situation.
                     </p>
                   </div>
                 </motion.div>

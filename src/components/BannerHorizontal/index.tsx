@@ -16,7 +16,7 @@ function BannerHorizontal() {
               </p> */}
 
               <h5 className="mb-2 pt-3 text-3xl font-medium tracking-tight text-white dark:text-white lg:text-5xl">
-                A Team of Chartered Accountants with 15+ years of experience
+                A Team of Chartered Accountants with 15+ Years of Experience
               </h5>
             </div>
 
