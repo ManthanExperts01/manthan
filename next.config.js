@@ -1,3 +1,4 @@
+const path = require('path');
 const { SITE } = require('./src/config.js');
 
 module.exports = {
@@ -10,5 +11,13 @@ module.exports = {
   poweredByHeader: false,
   images: {
     unoptimized: true,
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/images/manthan-exprerts/blogs/:path*',
+        destination: '/api/images/:path*',
+      },
+    ];
   },
 };

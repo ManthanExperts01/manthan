@@ -2,7 +2,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { promises as fs } from 'fs';
 import { NextResponse } from 'next/server';
-// import { revalidateTag } from 'next/cache';
+import { revalidatePath } from 'next/cache';
 
 export async function POST(req: Request) {
   const formData = await req.formData();
@@ -36,7 +36,10 @@ export async function POST(req: Request) {
       const buffer = new Uint8Array(arrayBuffer);
       await fs.writeFile(imageFilePath, buffer);
     }
-    // revalidateTag('blogs');
+    revalidatePath('/blogs');
+    revalidatePath(`/${slug}`);
+    revalidatePath('/admin/blogs');
+    revalidatePath(`/admin/blogs/${slug}`);
     return NextResponse.json({ message: 'Blog saved successfully!' }, { status: 201 });
   } catch (err) {
     console.error('Failed to save blog!', err);

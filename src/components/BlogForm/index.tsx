@@ -92,9 +92,7 @@ const BlogForm = ({
                     <option value="Cat-2">Cat-2</option>
                     <option value="Cat-3">Cat-3</option>
                     <option value="Cat-4">Cat-4</option>
-                    <option value="Cat-4">Cat-4</option>
-                    <option value="Cat-4">Cat-4</option>
-                    <option value="Cat-4">Cat-4</option>
+                    <option value="Cat-5">Cat-5</option>
                   </Field>
                   <ErrorMessage className="text-red-500" name="category" component="div" />
                 </div>
