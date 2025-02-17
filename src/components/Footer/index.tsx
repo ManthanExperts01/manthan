@@ -81,38 +81,38 @@ const Footer = () => {
                   <p className="mb-4">
                     <LinkWithAnimation
                       href="/services/itr-filing"
-                      LinkText="Tax planning & strategy"
+                      LinkText="Income Tax e-Filling"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
                       href="/services/notices-to-resolutions"
-                      LinkText="Income tax preparation"
+                      LinkText="Income Tax Demands and Notices Resolution"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="/services/gst-registration-return-filing-and-notice" LinkText="Tax Audit" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="/services/gst-registration-return-filing-and-notice" LinkText="GST (Registration, Return Filing & Notices Resolution)" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
                       href="/services/bookkeeping-and-accounting"
-                      LinkText="Tax Demands and Notices Resolution"
+                      LinkText="Bookkeeping & Accounting Services"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
                       href="/services/audit-and-assurance"
-                      LinkText="Small business tax"
+                      LinkText="Audit & Assurance Services"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
                       href="/services/payroll-pf-esic"
-                      LinkText="International taxation"
+                      LinkText="Payroll Services (PF & ESIC)"
                       className="text-white after:bg-white"
                     />
                   </p>
@@ -121,13 +121,6 @@ const Footer = () => {
               <div>
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">Useful links</h6>
                 <div className="flex justify-center md:justify-start flex-col items-center md:items-start">
-                  <p className="mb-4">
-                    <LinkWithAnimation
-                      href="#pricing-section"
-                      LinkText="Pricing"
-                      className="text-white after:bg-white"
-                    />
-                  </p>
                   <p className="mb-4">
                     <LinkWithAnimation href="/blogs" LinkText="Blogs" className="text-white after:bg-white" />
                   </p>
