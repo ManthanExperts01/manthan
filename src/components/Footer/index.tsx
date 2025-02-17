@@ -80,38 +80,38 @@ const Footer = () => {
                 <div className="flex justify-center md:justify-start flex-col items-center md:items-start">
                   <p className="mb-4">
                     <LinkWithAnimation
-                      href="/contact"
+                      href="/services/itr-filing"
                       LinkText="Tax planning & strategy"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
-                      href="/contact"
+                      href="/services/notices-to-resolutions"
                       LinkText="Income tax preparation"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="/contact" LinkText="Tax Audit" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="/services/gst-registration-return-filing-and-notice" LinkText="Tax Audit" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
-                      href="/contact"
+                      href="/services/bookkeeping-and-accounting"
                       LinkText="Tax Demands and Notices Resolution"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
-                      href="/contact"
+                      href="/services/audit-and-assurance"
                       LinkText="Small business tax"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
-                      href="/contact"
+                      href="/services/payroll-pf-esic"
                       LinkText="International taxation"
                       className="text-white after:bg-white"
                     />
@@ -132,17 +132,17 @@ const Footer = () => {
                     <LinkWithAnimation href="/blogs" LinkText="Blogs" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="" LinkText="HRA Calculator" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="https://incometaxindia.gov.in/Pages/tools/house-rent-allowance-calculator.aspx" LinkText="HRA Calculator" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="" LinkText="Tax Calculator" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="https://eportal.incometax.gov.in/iec/foservices/#/TaxCalc/calculator" LinkText="Tax Calculator" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="" LinkText="Tax Refund Status" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="https://www.incometax.gov.in/iec/foportal/help/refund_status_user_manual" LinkText="Tax Refund Status" className="text-white after:bg-white" />
                   </p>
                   <p>
                     <LinkWithAnimation
-                      href=""
+                      href="https://eportal.incometax.gov.in/iec/foservices/#/pre-login/link-aadhaar-status"
                       LinkText="PAN Adhaar Link Status"
                       className="text-white after:bg-white"
                     />
