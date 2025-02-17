@@ -32,12 +32,12 @@ const HeroBannerWithForm = ({ headline }: HeroBannerWithFormProps) => {
                   Expert tax guidance
                 </p> */}
               <h5 className="mb-2 pt-0 text-3xl font-medium tracking-tight text-white dark:text-white">
-                Your Trusted Partner For Effective Tax Strategies & Seamless Compliances
+                Your Trusted Partner For Effective Tax Strategies and Seamless Compliances
               </h5>
             </div>
             <div>
               <p className="mb-3 font-normal text-white dark:text-gray-400">
-                Unmatched Quality with Trusted CA Guidance. Book a consultation with our tax experts today.
+                Unmatched Quality with Trusted CA Guidance. Book a Consultation with Our Tax Experts Today.
               </p>
               <Link href="/contact" passHref>
                 <Button

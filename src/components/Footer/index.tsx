@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="text-surface/75 container bg-secondary text-center text-white dark:bg-neutral-700 dark:text-white/75 lg:text-left">
           <div className="flex items-center justify-center p-6 lg:justify-between">
             <div className="me-12 hidden lg:block">
-              <span>Get connected with us on social networks:</span>
+              <span>Get Connected with Us on Social Networks:</span>
             </div>
             <div className="flex justify-center">
               <a href="https://www.facebook.com/manthanexperts1" className="me-6" target="_blank">
@@ -81,19 +81,19 @@ const Footer = () => {
                   <p className="mb-4">
                     <LinkWithAnimation
                       href="/services/itr-filing"
-                      LinkText="Income Tax e-Filling"
+                      LinkText="ITR e-Filling "
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
                       href="/services/notices-to-resolutions"
-                      LinkText="Income Tax Demands and Notices Resolution"
+                      LinkText="Income Tax Consultancy"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="/services/gst-registration-return-filing-and-notice" LinkText="GST (Registration, Return Filing & Notices Resolution)" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="/services/gst-registration-return-filing-and-notice" LinkText="GST Management" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation

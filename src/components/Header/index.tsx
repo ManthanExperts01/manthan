@@ -84,7 +84,7 @@ const Header = () => {
                   >
                     {links && links.length ? (
                       <>
-                        <button className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900 dark:hover:text-white">
+                        <button className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-[#4fa447] hover:font-bold">
                           {label} {Icon && <Icon className="ml-0.5 hidden h-3.5 w-3.5 lg:inline" />}
                         </button>
                         <ul
@@ -92,14 +92,17 @@ const Header = () => {
                             isDropdownOpen[index] ? 'block' : 'lg:hidden'
                           } rounded pl-4 font-medium drop-shadow-xl lg:absolute lg:min-w-[200px] lg:bg-white lg:pl-0 lg:backdrop-blur-md dark:lg:bg-slate-900/90`}
                         >
-                          {links.map(({ label: label2, href: href2 }, index2) => (
+                          {links.map(({ label: label2, href: href2, iconSrc }, index2) => (
                             <li key={`item-link-${index2}`}>
                               <Link
-                                className="whitespace-no-wrap block py-2 px-5 first:rounded-t last:rounded-b dark:hover:bg-gray-700 lg:hover:bg-gray-200"
+                                className="flex items-center whitespace-no-wrap first:rounded-t last:rounded-b dark:hover:bg-gray-700 space-x-2 p-4 hover:bg-[#4fa447] hover:text-white border"
                                 href={href2 as string}
                                 onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleMouseLeave(index))}
                               >
-                                {label2}
+                                <img src={`/images/navbarServices/${iconSrc}.png`} className='w-5'/>
+                                <div className="font-bold">
+                                  {label2}
+                                </div>
                               </Link>
                             </li>
                           ))}
@@ -107,7 +110,7 @@ const Header = () => {
                       </>
                     ) : (
                       <Link
-                        className="flex relative items-center py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900 dark:hover:text-white after:absolute after:bottom-2 after:block after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:transition after:duration-300 after:content-[''] hover:after:scale-x-100 lg:after:bg-black"
+                        className="flex relative items-center py-3 font-medium transition duration-150 ease-in-out hover:text-[#4fa447] hover:font-semibold dark:hover:text-white after:absolute after:bottom-2 after:block after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:transition after:duration-300 after:content-[''] hover:after:scale-x-100 lg:after:bg-black"
                         href={href as string}
                         onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleMouseLeave(index))}
                       >

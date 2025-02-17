@@ -122,6 +122,7 @@ type Link = {
   href?: string;
   ariaLabel?: string;
   icon?: Icon;
+  iconSrc?: string;
 };
 
 type MenuLink = Link & {

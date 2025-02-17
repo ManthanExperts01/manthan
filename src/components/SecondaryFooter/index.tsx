@@ -6,7 +6,7 @@ const SecondaryFooter = () => {
   const headerData = {
     header: {
       title: `Take The Next Step Towards
-Income Tax Clarity`,
+Financial Clarity`,
     },
   };
   return (
@@ -25,7 +25,7 @@ Income Tax Clarity`,
           <div className="p-3 ">
             <CTA
               callToAction={{ text: "Get started ", href: "/contact" }}
-              linkClass="btn bg-white dark:bg-white dark:text-black m-1 py-4 px-8 text-black text-md font-normal shadow-none md:px-6 w-full flex justify-center"
+              linkClass="btn bg-white hover:bg-[#4fa447] dark:bg-white dark:text-black m-1 py-4 px-8 text-black text-md font-normal shadow-none md:px-6 w-full flex justify-center"
             />
           </div>
         </div>

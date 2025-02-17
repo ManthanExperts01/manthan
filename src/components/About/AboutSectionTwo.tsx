@@ -30,7 +30,7 @@ const AboutSectionTwo = ({ headline }: AboutSectionTwoProps) => {
               </div>
 
               <p className="mt-12">
-                Our Consultants Handles Consultation And Legal Work Through Phone, Email, and Our Secure Client Portal For Maximum Convenience And Security.
+                Our Consultants Handles Consultation And Legal Work Through Mobile Phone, e-mail and Our Secure Client Portal For Maximum Convenience and Security.
               </p>
             </div>
           </div>
@@ -73,10 +73,10 @@ const AboutSectionTwo = ({ headline }: AboutSectionTwoProps) => {
                   <Book />
                   <div>
                     <h3 className="textblack mb-4 text-2xl font-medium dark:text-white">
-                      Valuable Tax Resources To Empower Your Decisions
+                      Valuable Resources To Empower Your Decisions
                     </h3>
                     <p className="textbody-color text-base font-medium">
-                      Access Top-Tier Resources Providing The Latest and Most Comprehensive Information
+                      Access Top-Tier Consultants Providing The Latest and Most Comprehensive Information
                     </p>
                   </div>
                 </motion.div>

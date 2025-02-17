@@ -22,7 +22,7 @@ function BannerHorizontal() {
 
             <div className="py-6">
               <p className="mb-6 font-normal text-white dark:text-gray-400">
-              When you Need Legal Representation in a Complex Income Tax matters, we are Here for You.
+              When you Need Legal Representation in a Complex Income Tax matters, We are Here for You.
               </p>
               <Link href="/contact" passHref>
                 <Button

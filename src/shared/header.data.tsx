@@ -9,32 +9,38 @@ export const headerData: HeaderProps = {
       href: "/#about-section", // Change to absolute path
     },
     {
-      label: "Services",
+      label: "Our Services",
       icon: IconChevronDown as Icon,
       links: [
         {
-          label: "Income Tax e-Filling",
+          label: "ITR e-Filling",
           href: "/services/itr-filing",
+          iconSrc: "itr"
         },
         {
-          label: "Income Tax Demands and Notices Resolution",
+          label: "Income Tax Consultancy",
           href: "/services/notices-to-resolutions",
+          iconSrc: "resolutions"
         },
         {
-          label: "GST (Registration, Return Filing & Notices Resolution)",
+          label: "GST Management",
           href: "/services/gst-registration-return-filing-and-notice",
+          iconSrc: "gst"
         },
         {
           label: "Bookkeeping & Accounting Services",
           href: "/services/bookkeeping-and-accounting",
+          iconSrc: "book"
         },
         {
           label: "Audit & Assurance Services",
           href: "/services/audit-and-assurance",
+          iconSrc: "audit"
         },
         {
           label: "Payroll Services (PF & ESIC)",
           href: "/services/payroll-pf-esic",
+          iconSrc: "payroll"
         },
       
       ],
@@ -44,7 +50,7 @@ export const headerData: HeaderProps = {
     //   href: "/#pricing-section", // Change to absolute path
     // },
     {
-      label: "Contact",
+      label: "Contact Us",
       href: "/contact",
     },
     {

@@ -31,7 +31,7 @@ const FAQ = ({
           {callToAction && (
             <CTA
               callToAction={callToAction as CallToActionType}
-              linkClass="btn bg-black dark:bg-white dark:text-black py-4 px-8 text-white text-md font-normal shadow-none md:px-6 mb-4"
+              linkClass="btn bg-black hover:bg-[#4fa447] dark:bg-white dark:text-black py-4 px-8 text-white text-md font-normal shadow-none md:px-6 mb-4"
             />
           )}
         </div>
