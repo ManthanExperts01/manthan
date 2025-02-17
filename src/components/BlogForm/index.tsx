@@ -7,13 +7,14 @@ import { useRouter } from 'next/navigation';
 import { BlogValues } from '@/types/form';
 import Editor from './editor';
 import FormButton from '../FormButton';
+import { categories } from '@/utils/const';
 
 const BlogForm = ({
   initialValues = {
     title: '',
     subtitle: '',
     date: new Date().toISOString().split('T')[0],
-    author: 'NSt Writer',
+    author: 'Admin',
     featured_image: null,
     category: [],
   },
@@ -81,18 +82,18 @@ const BlogForm = ({
 
                 <div>
                   <label htmlFor="author">Author</label>
-                  <Field className="w-full border p-2" id="author" name="author" type="text" disabled={true} />
+                  <Field className="w-full border p-2" id="author" name="author" type="text" />
                   <ErrorMessage className="text-red-500" name="author" component="div" />
                 </div>
 
                 <div className="md:col-span-2">
                   <label htmlFor="category">Category</label>
                   <Field className="w-full border p-2" as="select" name="category" multiple>
-                    <option value="Cat-1">Cat-1</option>
-                    <option value="Cat-2">Cat-2</option>
-                    <option value="Cat-3">Cat-3</option>
-                    <option value="Cat-4">Cat-4</option>
-                    <option value="Cat-5">Cat-5</option>
+                    {categories.map((cat) => (
+                      <option key={cat.value} value={cat.value}>
+                        {cat.label}
+                      </option>
+                    ))}
                   </Field>
                   <ErrorMessage className="text-red-500" name="category" component="div" />
                 </div>

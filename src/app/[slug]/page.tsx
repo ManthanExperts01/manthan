@@ -4,6 +4,7 @@ import { CallToActionType } from '@/types/faq';
 import ImageFallback from '@/components/ImageFallback';
 import getPostContent from '@/components/Blogs/getPostContent';
 import getPostMetadata from '@/components/Blogs/getPostMetadata';
+import { generateToC } from '@/utils/generateToC';
 
 export const generateStaticParams = async () => {
   const posts = getPostMetadata();
@@ -35,6 +36,8 @@ export const generateMetadata = ({ params }: { params: { slug: string } }): Meta
 
 const PostPage = ({ params }: { params: { slug: string } }) => {
   const post = getPostContent(params.slug);
+  const { tocs, content } = generateToC(post.content);
+
   const callToAction: CallToActionType = {
     text: 'Click Here To File Your ITR',
     href: '/contact',
@@ -68,8 +71,20 @@ const PostPage = ({ params }: { params: { slug: string } }) => {
         <figure className="flex justify-center">
           <ImageFallback src={post.data.featured_image} alt="" width={800} height={480} priority />
         </figure>
+        <div className="my-6 space-y-6">
+          <h2 className="text-4xl font-bold text-black">Table of Contents</h2>
+          <ul className="list-disc space-y-2 pl-5">
+            {tocs.map((item, index) => (
+              <li className="underline text-xl" key={index}>
+                <a href={`#${item.id}`} className="text-blue-500">
+                  {item.text}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
         <div className="prose max-w-[100%]">
-          <div className="my-10" dangerouslySetInnerHTML={{ __html: post.content }}></div>
+          <div className="my-10" dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>
       </article>
       {callToAction && (
