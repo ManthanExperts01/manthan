@@ -136,7 +136,7 @@ const Footer = () => {
                   <p>
                     <LinkWithAnimation
                       href="https://eportal.incometax.gov.in/iec/foservices/#/pre-login/link-aadhaar-status"
-                      LinkText="PAN Adhaar Link Status"
+                      LinkText="PAN Aadhar Link Status"
                       className="text-white after:bg-white"
                     />
                   </p>
