@@ -23,8 +23,8 @@ export const metadata: Metadata = {
 };
 
 const heroBannerData = {
-  title: 'From Notices to Resolutions - We Handle It All',
-  subtitle: 'Years of Trusted Guidance For All Income Tax Matters – Effective, Efficient, and Reliable',
+  title: 'We Handle The ITR Complexity, You Enjoy The Simplicity',
+  subtitle: 'A Legacy of 15+ Years in Expertise of ITR Filing & Tax Consultancy',
   image: 'itr',
   list1: (
     <>
@@ -49,22 +49,26 @@ const quotationCTAData = {
   bullets: ['Thorough Assessment', 'Fair and Accurate Evaluation', 'Analyzing The Complexity and Requirements'],
 };
 const helpfulBlogsData = {
-  title: 'Talk to Experts',
+  title: 'Team of Professionals',
   contents: [
-    'Our Team of Chartered Accountant Provides Comprehensive Assistance With Income Tax Notices & Demand Assessment, Helping You Navigate Complex Regulations.',
-    'We Analyze The Income Tax Notices, Assesses The Demand, Identify Potential Reliefs, and Offer Strategic Solutions to Ensure Compliance While Minimizing Financial Impact.',
+    'Our team of tax professionals provides expert guidance and support to simplify the complexities of income tax return filing.',
+    'We conduct a thorough analysis of your financial situation, identify eligible tax benefits and deductions, and help you make informed decisions to optimize your tax position effectively.',
   ],
   lists: [
     {
-      label: 'Types of Income Tax Notices (Sections & Reasons)',
+      label: 'Eligibility for filing Income Tax Return',
       href: '/articles-link',
     },
     {
-      label: 'Defective Notice & Faceless Scrutiny',
+      label: 'Types of income Tax Forms',
       href: '/articles-link',
     },
     {
-      label: 'Preventive Measures to Avoid Notices & Demand',
+      label: 'Benefits of Filing Income Tax Return',
+      href: '/articles-link',
+    },
+    {
+      label: 'Income Tax Penalty',
       href: '/articles-link',
     },
   ],

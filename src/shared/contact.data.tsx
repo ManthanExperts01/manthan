@@ -25,7 +25,7 @@ export const faqsData: FAQsProps = {
       description: `Manthan works on the philosophy that ‘YOU’ deserve the best. With this aim, we strive to provide the best income tax solutions to all our clients. which Includes Income Tax Returns (ITR) Filing, Tax planning, Tax Audits, Compliance, Advisory services, and Consultancy on Income Tax Notice.`,
     },
     {
-      title: "How Manthan Experts maintains the Confidentiality of the Clients",
+      title: "How Manthan Experts maintains the Confidentiality of the Clients?",
       description: `Manthan Experts strongly believes in building the trust of the clients. Our team understands how important is to keep the security and confidentiality of the client's data and information. We take important measures to ensure the same:
       <ol><li><strong>1. Secure Systems:</strong> Manthan Experts employs advanced technology and secure systems to safeguard client information from unauthorized access or breaches.</li>
       <li><strong>2. Confidentiality Agreements:</strong> All team members at Manthan Experts sign confidentiality agreements, ensuring the protection and non-disclosure of client information.</li>
