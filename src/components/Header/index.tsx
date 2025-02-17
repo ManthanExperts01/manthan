@@ -90,7 +90,7 @@ const Header = () => {
                         <ul
                           className={`${
                             isDropdownOpen[index] ? 'block' : 'lg:hidden'
-                          } rounded pl-4 font-medium drop-shadow-xl lg:absolute lg:min-w-[200px] lg:bg-white/90 lg:pl-0 lg:backdrop-blur-md dark:lg:bg-slate-900/90`}
+                          } relative rounded pl-4 font-medium drop-shadow-xl lg:absolute lg:min-w-[200px] lg:bg-white/90 lg:pl-0 lg:backdrop-blur-md dark:lg:bg-slate-900/90`}
                         >
                           {links.map(({ label: label2, href: href2 }, index2) => (
                             <li key={`item-link-${index2}`}>
@@ -101,6 +101,11 @@ const Header = () => {
                               >
                                 {label2}
                               </Link>
+                              {label2 == "Services" && 
+                                <div className='absolute top-0 left-0'>
+                                  Hello
+                                </div>
+                              }
                             </li>
                           ))}
                         </ul>

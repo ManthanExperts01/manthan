@@ -80,39 +80,39 @@ const Footer = () => {
                 <div className="flex justify-center md:justify-start flex-col items-center md:items-start">
                   <p className="mb-4">
                     <LinkWithAnimation
-                      href="/contact"
-                      LinkText="Tax planning & strategy"
+                      href="/services/itr-filing"
+                      LinkText="Income Tax e-Filling"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
-                      href="/contact"
-                      LinkText="Income tax preparation"
+                      href="/services/notices-to-resolutions"
+                      LinkText="Income Tax Demands and Notices Resolution"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="/contact" LinkText="Tax Audit" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="/services/gst-registration-return-filing-and-notice" LinkText="GST (Registration, Return Filing & Notices Resolution)" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
-                      href="/contact"
-                      LinkText="Tax Demands and Notices Resolution"
-                      className="text-white after:bg-white"
-                    />
-                  </p>
-                  <p className="mb-4">
-                    <LinkWithAnimation
-                      href="/contact"
-                      LinkText="Small business tax"
+                      href="/services/bookkeeping-and-accounting"
+                      LinkText="Bookkeeping & Accounting Services"
                       className="text-white after:bg-white"
                     />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation
-                      href="/contact"
-                      LinkText="International taxation"
+                      href="/services/audit-and-assurance"
+                      LinkText="Audit & Assurance Services"
+                      className="text-white after:bg-white"
+                    />
+                  </p>
+                  <p className="mb-4">
+                    <LinkWithAnimation
+                      href="/services/payroll-pf-esic"
+                      LinkText="Payroll Services (PF & ESIC)"
                       className="text-white after:bg-white"
                     />
                   </p>
@@ -122,27 +122,20 @@ const Footer = () => {
                 <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">Useful links</h6>
                 <div className="flex justify-center md:justify-start flex-col items-center md:items-start">
                   <p className="mb-4">
-                    <LinkWithAnimation
-                      href="#pricing-section"
-                      LinkText="Pricing"
-                      className="text-white after:bg-white"
-                    />
-                  </p>
-                  <p className="mb-4">
                     <LinkWithAnimation href="/blogs" LinkText="Blogs" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="" LinkText="HRA Calculator" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="https://incometaxindia.gov.in/Pages/tools/house-rent-allowance-calculator.aspx" LinkText="HRA Calculator" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="" LinkText="Tax Calculator" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="https://eportal.incometax.gov.in/iec/foservices/#/TaxCalc/calculator" LinkText="Tax Calculator" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="" LinkText="Tax Refund Status" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="https://www.incometax.gov.in/iec/foportal/help/refund_status_user_manual" LinkText="Tax Refund Status" className="text-white after:bg-white" />
                   </p>
                   <p>
                     <LinkWithAnimation
-                      href=""
+                      href="https://eportal.incometax.gov.in/iec/foservices/#/pre-login/link-aadhaar-status"
                       LinkText="PAN Adhaar Link Status"
                       className="text-white after:bg-white"
                     />
