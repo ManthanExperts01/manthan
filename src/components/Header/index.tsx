@@ -73,7 +73,7 @@ const Header = () => {
             } w-auto overflow-y-auto dark:text-slate-200 md:mx-5 lg:flex lg:h-auto lg:items-center lg:overflow-visible`}
             aria-label="Main navigation"
           >
-            <ul className="flex w-full flex-col pt-8 text-xl lg:w-auto lg:flex-row lg:self-center md:pt-0 md:text-base">
+            <ul className="flex w-full space-x-8 lg:space-x-0 flex-col pt-8 text-xl lg:w-auto lg:flex-row lg:self-center md:pt-0 md:text-base">
               {links &&
                 links.map(({ label, href, icon: Icon, links }, index) => (
                   <li
@@ -84,7 +84,7 @@ const Header = () => {
                   >
                     {links && links.length ? (
                       <>
-                        <button className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-[#4fa447] hover:font-bold">
+                        <button className="flex items-center px-4 py-3 font-medium transition text-xl duration-150 ease-in-out hover:text-[#4fa447] hover:font-bold">
                           {label} {Icon && <Icon className="ml-0.5 hidden h-3.5 w-3.5 lg:inline" />}
                         </button>
                         <ul
@@ -110,7 +110,7 @@ const Header = () => {
                       </>
                     ) : (
                       <Link
-                        className="flex relative items-center py-3 font-medium transition duration-150 ease-in-out hover:text-[#4fa447] hover:font-semibold dark:hover:text-white after:absolute after:bottom-2 after:block after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:transition after:duration-300 after:content-[''] hover:after:scale-x-100 lg:after:bg-black"
+                        className="flex relative items-center py-3 font-medium transition duration-150 ease-in-out hover:text-[#4fa447] hover:font-semibold dark:hover:text-white after:absolute text-xl after:bottom-2 after:block after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:transition after:duration-300 after:content-[''] hover:after:scale-x-100 lg:after:bg-black"
                         href={href as string}
                         onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleMouseLeave(index))}
                       >

@@ -35,6 +35,7 @@ const HeroBannerWithForm = ({ headline }: HeroBannerWithFormProps) => {
                 Your Trusted Partner For Effective Tax Strategies and Seamless Compliances
               </h5>
             </div>
+            <img src="/images/contact.gif" className='w-80 mx-auto'/>
             <div>
               <p className="mb-3 font-normal text-white dark:text-gray-400">
                 Unmatched Quality with Trusted CA Guidance. Book a Consultation with Our Tax Experts Today.
