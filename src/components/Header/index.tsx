@@ -90,12 +90,12 @@ const Header = () => {
                         <ul
                           className={`${
                             isDropdownOpen[index] ? 'block' : 'lg:hidden'
-                          } rounded pl-4 font-medium drop-shadow-xl lg:absolute lg:min-w-[200px] lg:bg-white lg:pl-0 lg:backdrop-blur-md dark:lg:bg-slate-900/90`}
+                          } rounded pl-4 lg:grid grid-cols-3 grid-rows-2 font-medium drop-shadow-xl lg:absolute top-30 md:left-0 lg:left-[5%] xl:left-[15%] 2xl:left-[30%] lg:min-w-[200px] lg:bg-white lg:pl-0 lg:backdrop-blur-md dark:lg:bg-slate-900/90`}
                         >
                           {links.map(({ label: label2, href: href2, iconSrc }, index2) => (
                             <li key={`item-link-${index2}`}>
                               <Link
-                                className="flex items-center whitespace-no-wrap first:rounded-t last:rounded-b dark:hover:bg-gray-700 space-x-2 p-4 hover:bg-[#4fa447] hover:text-white border"
+                                className="flex items-center whitespace-no-wrap first:rounded-t last:rounded-b text-nowrap dark:hover:bg-gray-700 space-x-2 p-4 hover:bg-[#4fa447] hover:text-white border"
                                 href={href2 as string}
                                 onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleMouseLeave(index))}
                               >
