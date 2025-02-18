@@ -11,7 +11,7 @@ export const faqsData: FAQsProps = {
   hasBackground: true,
   header: {
     title: `Got a Question? Get Your Answer`,
-    subtitle: `Quick answers to questions you may have. Can not find what you are looking for? Get in touch with us.`,
+    subtitle: `Find Quick Answers to Your Questions. Still Need Help? Reach Out to Us!`,
     // tagline: 'FAQS',
     position: "left",
   },

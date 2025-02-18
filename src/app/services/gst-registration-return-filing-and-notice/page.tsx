@@ -22,12 +22,13 @@ export const metadata: Metadata = {
 };
 
 const heroBannerData = {
-  title: 'Comprehensive GST Solutions: Quick Registration, Accurate Filing, and Proactive Notice Management',
+  title: 'Comprehensive GST Solutions',
+  headTwo: 'Quick Registration, Accurate Filing, and Proactive Notice Management' ,
   subtitle: 'Decades of Expertise in GST – Precise, Practical, and Punctual',
   image: 'gst-registration-return-filing-and-notice',
   list1: (
     <>
-      Trusted by<span className="text-[#4fa447] font-bold"> 10,00+ </span>Clients
+      Trusted by<span className="text-[#4fa447] font-bold"> 1,000+ </span>Clients
     </>
   )
 };
@@ -40,7 +41,7 @@ const heroBannerWithForm2Data = {
   ],
 };
 const quotationCTAData = {
-  bullets: ['Type of Business', 'Turnover & Complexity Involved', 'GST Audit & Compliance Requirements'],
+  bullets: ['Type of Business', 'Turnover & Complexity', 'Compliance Requirements'],
 };
 const helpfulBlogsData = {
   title: 'Talk to Experts',

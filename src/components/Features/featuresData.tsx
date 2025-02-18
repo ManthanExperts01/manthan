@@ -6,7 +6,7 @@ const featuresData: Feature[] = [
     title: "Income Tax Return e-Filling",
     serviceNumber: "01",
     paragraph:
-      "Our Team Carefully Revies Your Financial Documents To Ensure Compliance With Constantly Changing Tax Laws, Making Sure Your Income Tax Returns are Filed Smoothly And Error-Free.",
+      "Our Team Carefully Revies Your Financial Documents To Ensure Compliance With Constantly Evolving Tax Laws, Making Sure Your Income Tax Returns are Filed Smoothly And Error-Free.",
     cta: "Learn More",
     href: "itr-filing"
   },
@@ -16,7 +16,7 @@ const featuresData: Feature[] = [
     title: "Income Tax Consultancy",
     serviceNumber: "02",
     paragraph:
-      "Our Team of Experienced Chartered Accountant (CAs) ensures swift and efficient resolution of Income Tax Demands & Notices. We Carefully e-File Income Tax Returns (ITR) to minimize the chances of Income Tax Disputes and Defective Returns.",
+      "Our Team of Experienced Chartered Accountants (CAs) Ensures Swift and Efficient Resolution of Income Tax Demands & Notices. We Carefully e-File Income Tax Returns (ITR) to Minimize the Chances of Income Tax Disputes and Defective Returns.",
     cta: "Learn More",
     href: "notices-to-resolutions"
   },
@@ -26,7 +26,7 @@ const featuresData: Feature[] = [
     serviceNumber: "03",
     title: "GST Management",
     paragraph:
-      "Our Team Thoroughly Reviews your GST Documents to Ensure Compliance with Ever-Evolving Regulations, Ensuring Smooth Registration, Accurate Return Filing, and Efficient Resolution of any GST Notices.",
+      "Our Team Thoroughly Reviews your GST Documents to Ensure Compliance with Ever-Evolving Regulations, Ensuring Smooth Registration, Accurate Return Filing, and Efficient Resolutions of GST Notices.",
     cta: "Learn More",
     href: "gst-registration-return-filing-and-notice"
   },
@@ -35,7 +35,7 @@ const featuresData: Feature[] = [
     title: "Bookkeeping & Accounting Services",
     serviceNumber: "04",
     paragraph:
-      "Our Team of Skilled Accountants ensures Accurate and Timely Bookkeeping, providing Seamless Financial Records and Reports. We Handle All Aspects of Accounting to Help Your Business Stay Compliant and Organized, Minimizing Errors and Maximizing Efficiency.",
+      "Our Team of Skilled Accountants ensures Accurate and Timely Bookkeeping, Providing Seamless Financial Records and Reports. We Handle All Aspects of Accounting to Help Your Business Stay Compliant and Organized, Minimizing Errors and Maximizing Efficiency.",
     cta: "Learn More",
     href: "bookkeeping-and-accounting"
   },

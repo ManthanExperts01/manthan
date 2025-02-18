@@ -13,7 +13,7 @@ const QuotationCTA = ({ bullets }: QuotationCTAProps) => {
             <h3 className="text-2xl text-center">
               <span className="font-bold">Quotation</span>
               <br />
-              Will be Provided After Analyzing:
+              Will be Provided After:
             </h3>
             <ul className="font-medium text-xl space-y-4 ">
               {bullets.map((bullet, index) => (

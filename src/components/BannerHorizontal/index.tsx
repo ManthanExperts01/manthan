@@ -2,6 +2,7 @@
 import React from 'react';
 import Button from '../Button';
 import Link from 'next/link';
+import { GlowingButton } from '../Header';
 
 function BannerHorizontal() {
   return (
@@ -22,13 +23,12 @@ function BannerHorizontal() {
 
             <div className="py-6">
               <p className="mb-6 font-normal text-white dark:text-gray-400">
-              When you Need Legal Representation in a Complex Income Tax matters, We are Here for You.
+              When you Need Legal Representation in a Complex Financial Matters, We are Here for You.
               </p>
               <Link href="/contact" passHref>
-                <Button
-                  className=" border-2 bg-white px-6 py-3 text-base font-medium text-black transition duration-300 ease-in-out hover:border-white hover:bg-secondary hover:text-white hover:shadow-signUp"
-                  buttonText="Free case evaluation "
-                />
+                <GlowingButton>
+                  Free Case Evaluation
+                </GlowingButton>
               </Link>
             </div>
           </div>

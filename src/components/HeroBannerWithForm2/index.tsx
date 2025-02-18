@@ -6,6 +6,7 @@ import { HeroBannerWithForm2Props } from '@/types/faq';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FADE_UP_ANIMATION_VARIANTS } from '@/utils/animation';
+import { GlowingButton } from '../Header';
 
 const HeroBannerWithForm2 = ({ headline, title, bullets }: HeroBannerWithForm2Props) => {
   useEffect(() => {
@@ -32,10 +33,9 @@ const HeroBannerWithForm2 = ({ headline, title, bullets }: HeroBannerWithForm2Pr
               ))}
             </ul>
             <Link href="/contact" passHref>
-              <Button
-                className=" border-2 bg-white p-3 mt-4 text-base font-medium text-black transition duration-300 ease-in-out hover:border-white hover:bg-secondary hover:text-white"
-                buttonText=" Free consultation"
-              />
+              <GlowingButton>
+                Free Consultation
+              </GlowingButton>
             </Link>
             <div className="flex gap-8 flex-wrap items-center">
               <img className="w-48" src="/images/ratings/google.png" alt="" />

@@ -37,7 +37,7 @@ const heroBannerData = {
   ),
 };
 const heroBannerWithForm2Data = {
-  title: 'Reducing Complexity, Ensuring Compliance, and Enhancing Employee Satisfaction—We Manage It All For You.',
+  title: 'Reducing Complexity, Ensuring Compliance, and Enhancing Employee Satisfaction—We Manage it All.',
   bullets: [
     'Seamless & Smooth Operations With Our Reliable Payroll Solutions',
     'High-Quality Services, Cost-Effective Solutions',

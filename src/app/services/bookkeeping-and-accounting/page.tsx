@@ -52,7 +52,8 @@ const helpfulBlogsData = {
   title: 'Talk to Experts',
   contents: [
     'Optimize Financial Processes With Our Professional Bookkeeping Solutions. ',
-    'We Handle Transactions, Reconciliations, and Reports With Accuracy, Keeping Records Organized and Compliant.Focus on Growth While We Manage The Numbers Efficiently.',
+    'We Handle Transactions, Reconciliations, and Reports With Accuracy, Keeping Records Organized and Compliant.',
+    'Focus on Growth While We Manage The Numbers Efficiently.'
   ],
   lists: [
     {

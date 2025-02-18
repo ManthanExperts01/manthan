@@ -29,8 +29,8 @@ export const headlineDataAboutSectionTwo: AboutSectionTwoProps = {
 };
 export const headlineDataFeatures: FeatureProps = {
   headline: {
-    title: `Your One - Stop Destination For Expert Services`,
-    subtitle: `Experiences Tax Service Designed To Align With Your Personalized Financial Senerio, Ensuring Ease and Accuracy Every Step of the Way`,
+    title: `Your One - Stop Destination For Financial Services`,
+    subtitle: `Comprehensive Financial and Tax Solutions Designed To Align With Your Personalized Financial Senerio, Ensuring Ease and Accuracy Every Step of the Way`,
     position: 'center',
   },
 };
@@ -44,8 +44,8 @@ export const headlineDataBlog: BlogProps = {
 };
 export const headlineDataContact: ContactProps = {
   headline: {
-    title: `Let Us Help You With Your Taxes`,
-    subtitle: `Reserve Your Session, at your Preferred Time`,
+    title: `Contact With Our Expert Team`,
+    subtitle: `Book Free Consultation at a Time Most Suitable for You.`,
     position: 'left',
   },
 };
@@ -60,7 +60,7 @@ export const headlineDataContact2: ContactProps = {
 export const headlinePricing: PricingProps = {
   headline: {
     title: `Predictable pricing plans`,
-    subtitle: `Whether you are an individual, a small team, or a growing enterprise, we have ITR e-filing plan that aligns perfectly with your goals.`,
+    subtitle: `Whether You are an Individual, A Small Team, or A Growing Enterprise, We have ITR e-Filing Plan that Aligns Perfectly with Your Goals.`,
     position: 'center',
   },
   pricingDataMonthly: [
@@ -80,15 +80,15 @@ export const headlinePricing: PricingProps = {
           status: 'active',
         },
         {
-          text: 'Salary above 10Lakhs upto 50Lakhs <b>@1999/-</b>',
+          text: 'Salary Above 10Lakhs upto 50Lakhs <b>@1,999/-</b>',
           status: 'active',
         },
         {
-          text: 'Salary above 50Lakhs <b>2999/-</b>',
+          text: 'Salary Above 50Lakhs <b>2,999/-</b>',
           status: 'active',
         },
         {
-          text: 'Salary from more than one Employer <b>@1999/-</b>',
+          text: 'Salary from more than one Employer <b>@1,999/-</b>',
           status: 'active',
         },
       ],
@@ -101,19 +101,19 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: 'Salary, House Property and Capital Gain  Starting <b>@1999/-</b>',
+      title: 'Salary, House Property and Capital Gain  Starting <b>@1,999/-</b>',
       subtitle: ``,
       offerList: [
         {
-          text: 'Salary upto 10 Lakhs <b>@1999/-</b>',
+          text: 'Salary upto 10 Lakhs <b>@1,999/-</b>',
           status: 'active',
         },
         {
-          text: 'Salary above 10 Lakhs upto 50Lakhs <b>@2999/-</b>',
+          text: 'Salary Above 10 Lakhs upto 50Lakhs <b>@2,999/-</b>',
           status: 'active',
         },
         {
-          text: 'Salary above 50 Lakhs <b>@3999/-</b>',
+          text: 'Salary Above 50 Lakhs <b>@3,999/-</b>',
           status: 'active',
         },
       ],
@@ -128,7 +128,7 @@ export const headlinePricing: PricingProps = {
       duration: { isMonthly: 'mo', isYearly: 'yr' },
       title: 'Business Income',
       subtitle: `<ol>
-      <li>1. Business Income U/s 44AD/ADA/ADE <b>@2499/-</b></li>
+      <li>1. Business Income U/s 44AD/ADA/ADE <b>@2,499/-</b></li>
       <li>2. Business Income not U/s 44AD/ADA/ADE - <b>Quotation on Demand</b></li>
     </ol>`,
       offerList: [
@@ -137,11 +137,11 @@ export const headlinePricing: PricingProps = {
           status: 'active',
         },
         {
-          text: 'Computation Of Income ',
+          text: 'Computation of Income ',
           status: 'active',
         },
         {
-          text: 'Books Of Accounts ',
+          text: 'Books of Accounts ',
           status: 'active',
         },
         {
@@ -160,7 +160,7 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: `Tax Audit-Profit and Loss and Balance Sheet Available <b>@4999/-</b>`,
+      title: `Tax Audit-Profit and Loss and Balance Sheet Available <b>@4,999/-</b>`,
       subtitle: ``,
       offerList: [
         {
@@ -168,11 +168,11 @@ export const headlinePricing: PricingProps = {
           status: 'active',
         },
         {
-          text: 'Computation Of Income',
+          text: 'Computation of Income',
           status: 'active',
         },
         {
-          text: 'Books Of Accounts',
+          text: 'Books of Accounts',
           status: 'not-active',
         },
         {
@@ -189,7 +189,7 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: `Tax Audit - Profit and Loss and Balance Sheet Not Available <b>@9999/-</b>`,
+      title: `Tax Audit - Profit and Loss and Balance Sheet Not Available <b>@9,999/-</b>`,
       subtitle: ``,
       offerList: [
         {
@@ -197,11 +197,11 @@ export const headlinePricing: PricingProps = {
           status: 'active',
         },
         {
-          text: 'Computation Of Income ',
+          text: 'Computation of Income ',
           status: 'active',
         },
         {
-          text: 'Books Of Accounts ',
+          text: 'Books of Accounts ',
           status: 'active',
         },
         {
@@ -226,11 +226,11 @@ export const headlinePricing: PricingProps = {
           status: 'active',
         },
         {
-          text: 'Computation Of Income ',
+          text: 'Computation of Income ',
           status: 'not-active',
         },
         {
-          text: 'Books Of Accounts ',
+          text: 'Books of Accounts ',
           status: 'not-active',
         },
         {

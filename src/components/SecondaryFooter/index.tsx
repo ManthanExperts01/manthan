@@ -1,6 +1,8 @@
 import React from "react";
 import Headline from "../Common/Headline";
 import CTA from "../Common/CTA";
+import Link from "next/link";
+import { GlowingButton } from "../Header";
 
 const SecondaryFooter = () => {
   const headerData = {
@@ -23,10 +25,11 @@ Financial Clarity`,
             )}
           </div>
           <div className="p-3 ">
-            <CTA
-              callToAction={{ text: "Get started ", href: "/contact" }}
-              linkClass="btn bg-white hover:bg-[#4fa447] dark:bg-white dark:text-black m-1 py-4 px-8 text-black text-md font-normal shadow-none md:px-6 w-full flex justify-center"
-            />
+            <Link href={"/contact"}>
+              <GlowingButton>
+              Get started
+              </GlowingButton>
+            </Link>
           </div>
         </div>
       </div>

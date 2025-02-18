@@ -12,6 +12,7 @@ import {
   IconMail,
   IconPhone,
 } from '@tabler/icons-react';
+import { FaFacebook, FaSquareXTwitter, FaInstagram, FaLinkedin, FaYoutube, FaPinterest } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -24,22 +25,22 @@ const Footer = () => {
             </div>
             <div className="flex justify-center">
               <a href="https://www.facebook.com/manthanexperts1" className="me-6" target="_blank">
-                <IconBrandFacebook stroke={2} size={20} />
+                <FaFacebook className="text-[#1877F2] text-2xl" />
               </a>
               <a href="https://x.com/ManthanExperts" className="me-6 " target="_blank">
-                <IconBrandX stroke={2} size={20} />
+                <FaSquareXTwitter className="  text-2xl" />
               </a>
               <a href="https://www.instagram.com/manthan_experts" className="me-6" target="_blank">
-                <IconBrandInstagram stroke={2} size={24} />
+                <FaInstagram className="text-[#E1306C] text-2xl" />
               </a>
               <a href="https://www.linkedin.com/company/manthan-experts" className="me-6" target="_blank">
-                <IconBrandLinkedin stroke={2} size={24} />
+                <FaLinkedin className="text-[#0077B5] text-2xl" />
               </a>
               <a href="https://www.youtube.com/channel/UCwXMeuaMTCfAIsdLj4iyRjA" className="me-6" target="_blank">
-                <IconBrandYoutube stroke={2} size={24} />
+                <FaYoutube className="text-[#FF0000] text-2xl" />
               </a>
               <a href="https://in.pinterest.com/manthanexperts" className="me-6" target="_blank">
-                <IconBrandPinterest stroke={2} size={24} />
+                <FaPinterest className="text-[#E60023] text-2xl" />
               </a>
             </div>
           </div>

@@ -8,6 +8,7 @@ import { HeroBannerWithFormProps } from '@/types/faq';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FADE_UP_ANIMATION_VARIANTS } from '@/utils/animation';
+import { GlowingButton } from '../Header';
 
 const HeroBannerWithForm = ({ headline }: HeroBannerWithFormProps) => {
 
@@ -41,10 +42,9 @@ const HeroBannerWithForm = ({ headline }: HeroBannerWithFormProps) => {
                 Unmatched Quality with Trusted CA Guidance. Book a Consultation with Our Tax Experts Today.
               </p>
               <Link href="/contact" passHref>
-                <Button
-                  className=" border-2 bg-white p-3 text-base font-medium text-black transition duration-300 ease-in-out hover:border-white hover:bg-secondary hover:text-white"
-                  buttonText=" Free consultation"
-                />
+                <GlowingButton>
+                  Free consultation
+                </GlowingButton>
               </Link>
 
               <div className="elementor-widget-container mt-8 text-white">

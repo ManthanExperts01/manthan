@@ -169,6 +169,7 @@ export type ContactUsHorizontalCardProps = {
 export type HeroBannerProps = {
   title?: string;
   subtitle?: string;
+  headTwo? : string;
   image?: string;
   list1?: ReactElement;
   list2?: ReactElement;

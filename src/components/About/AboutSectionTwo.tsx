@@ -61,7 +61,7 @@ const AboutSectionTwo = ({ headline }: AboutSectionTwoProps) => {
                   </div>
                 </motion.div>
                 <motion.div variants={scrollAnimation} className="mb-9 ml-1 flex items-center lg:ml-20">
-                  <Lamp />
+                  <img src='/images/something.jpg' className='w-[102px] mr-6'/>
                   <div>
                     <h3 className="textblack mb-4 text-2xl font-medium dark:text-white">Chat with Our Expert</h3>
                     <p className="textbody-color text-base font-medium">
@@ -76,7 +76,7 @@ const AboutSectionTwo = ({ headline }: AboutSectionTwoProps) => {
                       Valuable Resources To Empower Your Decisions
                     </h3>
                     <p className="textbody-color text-base font-medium">
-                      Access Top-Tier Consultants Providing The Latest and Most Comprehensive Information
+                      Access Top-Tier Consultants Providing The Latest and Most Comprehensive Information.
                     </p>
                   </div>
                 </motion.div>

@@ -4,6 +4,8 @@ import { IconMinus, IconPlus } from "@tabler/icons-react";
 import { CallToActionType, FAQsProps, Item } from "@/types/faq";
 import CTA from "../Common/CTA";
 import WidgetWrapper from "../Common/WidgetWrapper";
+import Link from "next/link";
+import { GlowingButton } from "../Header";
 
 const FAQ = ({
   header,
@@ -29,10 +31,11 @@ const FAQ = ({
             />
           )}
           {callToAction && (
-            <CTA
-              callToAction={callToAction as CallToActionType}
-              linkClass="btn bg-black hover:bg-[#4fa447] dark:bg-white dark:text-black py-4 px-8 text-white text-md font-normal shadow-none md:px-6 mb-4"
-            />
+            <Link href={"/contact"}>
+              <GlowingButton>
+                Contact Us
+              </GlowingButton>
+            </Link>
           )}
         </div>
         <div className="mt-4 h-fit md:col-span-2 md:mx-4 md:mt-0 md:px-4 ">

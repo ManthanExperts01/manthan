@@ -149,9 +149,9 @@ const Header = () => {
     </>
   );
 };
-const GlowingButton = ({ children }) => {
+export const GlowingButton = ({ children }) => {
   return (
-    <Link href={'/contact'} className="bg-[#4fa447] text-white rounded-10px border-none cursor-pointer inline-block font-arial text-lg text-center no-underline animate-glowing px-8 py-3 whitespace-nowrap font-medium">
+    <Link href={'/contact'} className="bg-[#4fa447] w-full text-white rounded-10px border-none cursor-pointer inline-block font-arial text-lg text-center no-underline animate-glowing px-8 py-3 whitespace-nowrap font-medium">
       <span className="">{children}</span>
     </Link>
   );

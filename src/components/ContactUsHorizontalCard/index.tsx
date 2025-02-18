@@ -29,7 +29,7 @@ const ContactUsHorizontalCard = ({ headline }: ContactUsHorizontalCardProps) => 
               <div className="w-full xl:w-1/2 relative overflow-hidden">
                 <div className="relative mx-auto h-full img-gradient">
                   <Image
-                    src="/images/tax-banner-image.png" // Ensure the path is correct
+                    src="/images/support.avif" // Ensure the path is correct
                     alt="about-image"
                     layout="responsive" // Change to responsive layout
                     width={800} // Set a width suitable for your image
@@ -54,7 +54,7 @@ const ContactUsHorizontalCard = ({ headline }: ContactUsHorizontalCardProps) => 
                     <div>
                       {/* <h4>{description}</h4> */}
                       <h4>
-                        {`Optimize your tax filing experience with the guidance of seasoned CAs and unlock the maximum benefits.`}
+                        {`Comprehensive Financial and Tax Solutions Designed To Align With Your Personalized Financial Senerio, Ensuring Ease and Accuracy Every Step of the Way.`}
                       </h4>
                     </div>
                   </div>

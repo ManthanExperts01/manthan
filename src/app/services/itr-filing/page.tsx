@@ -51,16 +51,16 @@ const quotationCTAData = {
 const helpfulBlogsData = {
   title: 'Team of Professionals',
   contents: [
-    'Our team of tax professionals provides expert guidance and support to simplify the complexities of income tax return filing.',
-    'We conduct a thorough analysis of your financial situation, identify eligible tax benefits and deductions, and help you make informed decisions to optimize your tax position effectively.',
+    'Our Team of Tax Professionals Provides Expert Guidance and Support to Simplify the Complexities of Income Tax Return Filing.',
+    'We Conduct a Thorough Analysis of Your Financial Situation, Identify Eligible Tax Benefits and Deductions, and Help You Make Informed Decisions to Optimize Your Tax Position Effectively.',
   ],
   lists: [
     {
-      label: 'Eligibility for filing Income Tax Return',
+      label: 'Eligibility for Filing Income Tax Return',
       href: '/articles-link',
     },
     {
-      label: 'Types of income Tax Forms',
+      label: 'Types of Income Tax Forms',
       href: '/articles-link',
     },
     {

@@ -5,6 +5,8 @@ import md from 'markdown-it';
 import { motion } from 'framer-motion';
 import ScrollAnimationWrapper from '../ScrollAnimationWrapper';
 import getScrollAnimation from '@/utils/getScrollAnimation';
+import { GlowingButton } from '../Header';
+import Link from 'next/link';
 
 const PricingBox = (props: { title: string; subtitle?: string; children: React.ReactNode }) => {
   const { title, subtitle = '', children } = props;
@@ -13,7 +15,11 @@ const PricingBox = (props: { title: string; subtitle?: string; children: React.R
 
   return (
     <ScrollAnimationWrapper>
-      <motion.div className="h-full w-full" variants={scrollAnimation}>
+      <motion.div className="h-full w-full" variants={scrollAnimation}
+      whileHover={{
+        y: -20
+      }}
+      >
         <div className="relative z-10 flex h-full flex-col rounded-sm bg-white px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
           <div className="flex items-center justify-between">
             {title && (
@@ -34,11 +40,12 @@ const PricingBox = (props: { title: string; subtitle?: string; children: React.R
             />
           )}
           <div className="flex-grow">{children}</div>
-          <div className="mt-8">
-            <CTA
-              callToAction={{ text: 'Get started ', href: '/contact' }}
-              linkClass="btn bg-black dark:bg-white dark:text-black m-1 py-4 px-8 text-white text-md font-normal shadow-none md:px-6 w-full flex justify-center"
-            />
+          <div className="mt-8 border">
+            <Link href='/contact' className='border w-full'>
+              <GlowingButton>
+                Get Started
+              </GlowingButton>
+            </Link>
           </div>
         </div>
       </motion.div>
