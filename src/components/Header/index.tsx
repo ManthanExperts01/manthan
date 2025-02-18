@@ -95,7 +95,7 @@ const Header = () => {
                           {links.map(({ label: label2, href: href2, iconSrc }, index2) => (
                             <li key={`item-link-${index2}`}>
                               <Link
-                                className="flex items-center whitespace-no-wrap first:rounded-t last:rounded-b text-nowrap dark:hover:bg-gray-700 space-x-2 p-4 hover:bg-[#4fa447] hover:text-white border"
+                                className="flex items-center whitespace-no-wrap first:rounded-t last:rounded-b lg:text-nowrap dark:hover:bg-gray-700 space-x-2 py-3 lg:p-6 hover:bg-[#4fa447] hover:text-white"
                                 href={href2 as string}
                                 onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleMouseLeave(index))}
                               >
