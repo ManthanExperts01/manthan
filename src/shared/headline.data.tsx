@@ -160,7 +160,7 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: `<b>Tax Audit-Profit and Loss and Balance Sheet </br>Available @4,999/-</b>`,
+      title: `<b>Tax Audit-Profit and Loss and Balance Sheet Available</br> Starting @4,999/-</b>`,
       subtitle: ``,
       offerList: [
         {
@@ -189,7 +189,7 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: `<b>Tax Audit - Profit and Loss and Balance Sheet Not </br>Available @9,999/-</b>`,
+      title: `<b>Tax Audit - Profit and Loss and Balance Sheet Not Available </br> Starting @9,999/-</b>`,
       subtitle: ``,
       offerList: [
         {
