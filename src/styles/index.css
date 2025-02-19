@@ -90,6 +90,9 @@
   .blog-form input:disabled {
     @apply bg-zinc-100 cursor-not-allowed;
   }
+  .blog-preview h1 {
+    @apply scroll-mt-[180px];
+  }
 }
 
 /* for desktop */

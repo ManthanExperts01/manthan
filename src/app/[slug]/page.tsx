@@ -84,7 +84,7 @@ const PostPage = ({ params }: { params: { slug: string } }) => {
           </ul>
         </div>
         <div className="prose max-w-[100%]">
-          <div className="my-10" dangerouslySetInnerHTML={{ __html: content }}></div>
+          <div className="my-10 blog-preview" dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>
       </article>
       {callToAction && (

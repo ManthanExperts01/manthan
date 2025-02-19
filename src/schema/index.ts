@@ -13,8 +13,9 @@ export const validationBlogSchema = Yup.object({
   featured_image: Yup.mixed()
     .required('Featured Image is required')
     .test('fileType', 'Only PNG images are allowed', (value) => {
-      if (value) {
-        return value instanceof File && value.type === 'image/png';
+      if (!value) return true;
+      if (value instanceof File) {
+        return value.type === 'image/png';
       }
       return true;
     }),

@@ -11,7 +11,7 @@ export async function POST(req: Request) {
   const date = formData.get('date') as string;
   const author = formData.get('author') as string;
   const category = JSON.parse(formData.get('category') as string) as string[];
-  const featuredImage = formData.get('featured_image') as File | null;
+  const featuredImage = formData.get('featured_image');
   const content = formData.get('content') as string;
   const slug = title
     .toLowerCase()
@@ -29,7 +29,7 @@ export async function POST(req: Request) {
     const mdFilePath = path.join(process.cwd(), 'src', 'shared', 'posts', `${slug}.md`);
     await fs.mkdir(path.dirname(mdFilePath), { recursive: true });
     await fs.writeFile(mdFilePath, frontMatter, 'utf-8');
-    if (featuredImage) {
+    if (typeof featuredImage !== 'string') {
       const imageFilePath = path.join(process.cwd(), 'public', 'images', 'manthan-exprerts', 'blogs', `${slug}.png`);
       await fs.mkdir(path.dirname(imageFilePath), { recursive: true });
       const arrayBuffer = await featuredImage.arrayBuffer();
