@@ -24,7 +24,7 @@ const PricingBox = (props: { title: string; subtitle?: string; children: React.R
           <div className="flex items-center justify-between">
             {title && (
               <h3
-                className="price mb-9 text-[24px] font-medium text-black dark:text-white"
+                className="price mb-9 text-[24px] font-medium text-black dark:text-white text-center w-full"
                 dangerouslySetInnerHTML={{
                   __html: md({ html: true }).render(title),
                 }}

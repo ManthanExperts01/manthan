@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 const heroBannerData = {
   title: 'Comprehensive GST Solutions',
-  headTwo: 'Quick Registration, Accurate Filing, and Proactive Notice Management' ,
+  headTwo: 'Quick Registration, Accurate Return Filing, and Proactive Notice Management' ,
   subtitle: 'Decades of Expertise in GST – Precise, Practical, and Punctual',
   image: 'gst-registration-return-filing-and-notice',
   list1: (

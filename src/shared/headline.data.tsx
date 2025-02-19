@@ -72,19 +72,19 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: `Salary And House Property Starting <b>@999/-</b>`,
+      title: `<b>Income From Salary and House Property </br> Starting @999/-</b>`,
       subtitle: '',
       offerList: [
         {
-          text: 'Salary upto 10Lakhs/- <b>@999/-</b>',
+          text: 'Salary upto 10 Lakhs/- <b>@999/-</b>',
           status: 'active',
         },
         {
-          text: 'Salary Above 10Lakhs upto 50Lakhs <b>@1,999/-</b>',
+          text: 'Salary Above 10 Lakhs upto 50Lakhs <b>@1,999/-</b>',
           status: 'active',
         },
         {
-          text: 'Salary Above 50Lakhs <b>2,999/-</b>',
+          text: 'Salary Above 50 Lakhs <b>2,999/-</b>',
           status: 'active',
         },
         {
@@ -101,7 +101,7 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: 'Salary, House Property and Capital Gain  Starting <b>@1,999/-</b>',
+      title: '<b>Income From Salary, House Property and Capital Gain </br>Starting @1,999/-</b>',
       subtitle: ``,
       offerList: [
         {
@@ -126,10 +126,10 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: 'Business Income',
+      title: '<b>Income From Business and Profession</b>',
       subtitle: `<ol>
       <li>1. Business Income U/s 44AD/ADA/ADE <b>@2,499/-</b></li>
-      <li>2. Business Income not U/s 44AD/ADA/ADE - <b>Quotation on Demand</b></li>
+      <li>2. Business Income not U/s 44AD/ADA/ADE - <span style="display:block; text-align:center;"><b>Quotation on Demand</b></span></li>
     </ol>`,
       offerList: [
         {
@@ -160,7 +160,7 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: `Tax Audit-Profit and Loss and Balance Sheet Available <b>@4,999/-</b>`,
+      title: `<b>Tax Audit-Profit and Loss and Balance Sheet </br>Available @4,999/-</b>`,
       subtitle: ``,
       offerList: [
         {
@@ -189,7 +189,7 @@ export const headlinePricing: PricingProps = {
         isYearly: 'TAX AUDIT & TAX NOTICES',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: `Tax Audit - Profit and Loss and Balance Sheet Not Available <b>@9,999/-</b>`,
+      title: `<b>Tax Audit - Profit and Loss and Balance Sheet Not </br>Available @9,999/-</b>`,
       subtitle: ``,
       offerList: [
         {
