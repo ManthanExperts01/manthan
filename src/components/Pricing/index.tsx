@@ -50,7 +50,8 @@ const Pricing = ({ headline, pricingDataMonthly, pricingDataYearly }: PricingPro
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3 ">
+        <div className={`grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 ${isMonthly ? "lg:grid-cols-[1fr_1fr_1fr]" : "lg:grid-cols-[0.5fr_1fr_1fr_0.5fr]"} `}>
+          {!isMonthly && <div></div> }
         {pricingData
             ?.filter((_, index) => !(isSpecificPage && !isMonthly && index === pricingData.length - 1)) 
             .map(
@@ -63,6 +64,7 @@ const Pricing = ({ headline, pricingDataMonthly, pricingDataYearly }: PricingPro
                   </PricingBox>
                 ),
             )}
+            {!isMonthly && <div></div> }
         </div>
       </div>
     </section>

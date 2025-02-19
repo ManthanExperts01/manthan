@@ -12,9 +12,9 @@ const QuotationCTA = ({ bullets }: QuotationCTAProps) => {
 
   return (
     <div className="bg-lightGray ">
-      <div className="container flex flex-col md:flex-row items-center justify-center gap-8 mx-auto py-16">
-        <div className="w-full">
-          <img src="/images/image.png" alt="" width={500}/>
+      <div className="container flex flex-col md:flex-row items-center justify-center gap-16 mx-auto py-16">
+        <div className="flex justify-end w-full">
+          <img src="/images/image.png" alt="" width={450} className=''/>
         </div>
         <div className="w-full">
           <div className="bg-white shadow-lg rounded-sm md:w-3/4 mx-auto gap-12 p-12 flex flex-col ">
