@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import LinkWithAnimation from '../LinkWithAnimation';
+import { motion } from 'framer-motion';
 import {
   IconBrandFacebook,
   IconBrandInstagram,
@@ -24,24 +25,48 @@ const Footer = () => {
               <span>Get Connected with Us on Social Networks:</span>
             </div>
             <div className="flex justify-center">
-              <a href="https://www.facebook.com/manthanexperts1" className="me-6" target="_blank">
+              <motion.a href="https://www.facebook.com/manthanexperts1" className="me-6" target="_blank"
+              whileHover={{
+                y: -7
+              }}
+              >
                 <FaFacebook className="text-[#1877F2] text-2xl" />
-              </a>
-              <a href="https://x.com/ManthanExperts" className="me-6 " target="_blank">
+              </motion.a>
+              <motion.a href="https://x.com/ManthanExperts" className="me-6 " target="_blank"
+              whileHover={{
+                y: -7
+              }}
+              >
                 <FaSquareXTwitter className="  text-2xl" />
-              </a>
-              <a href="https://www.instagram.com/manthan_experts" className="me-6" target="_blank">
+              </motion.a>
+              <motion.a href="https://www.instagram.com/manthan_experts" className="me-6" target="_blank"
+              whileHover={{
+                y: -7
+              }}
+              >
                 <FaInstagram className="text-[#E1306C] text-2xl" />
-              </a>
-              <a href="https://www.linkedin.com/company/manthan-experts" className="me-6" target="_blank">
+              </motion.a>
+              <motion.a href="https://www.linkedin.com/company/manthan-experts" className="me-6" target="_blank"
+              whileHover={{
+                y: -7
+              }}
+              >
                 <FaLinkedin className="text-[#0077B5] text-2xl" />
-              </a>
-              <a href="https://www.youtube.com/channel/UCwXMeuaMTCfAIsdLj4iyRjA" className="me-6" target="_blank">
+              </motion.a>
+              <motion.a href="https://www.youtube.com/channel/UCwXMeuaMTCfAIsdLj4iyRjA" className="me-6" target="_blank"
+              whileHover={{
+                y: -7
+              }}
+              >
                 <FaYoutube className="text-[#FF0000] text-2xl" />
-              </a>
-              <a href="https://in.pinterest.com/manthanexperts" className="me-6" target="_blank">
+              </motion.a>
+              <motion.a href="https://in.pinterest.com/manthanexperts" className="me-6" target="_blank"
+              whileHover={{
+                y: -7
+              }}
+              >
                 <FaPinterest className="text-[#E60023] text-2xl" />
-              </a>
+              </motion.a>
             </div>
           </div>
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]" />

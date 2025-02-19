@@ -10,6 +10,7 @@ import PopUp from '../PopUp';
 import { db } from '@/app/firebase';
 import { addDoc, collection } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
+import { GlowingButton } from '../Header';
 
 const ContactSchema = Yup.object().shape({
   name: Yup.string().required('Name is required'),
@@ -144,13 +145,9 @@ const Contact = ({ classNameContainer, headline }: ContactProps) => {
                 </div>
                 <div className="g-recaptcha" data-sitekey="6Lf6d-QpAAAAAJjH24XCH0lJX8U8kCJs1nXZu8pg"></div>
                 <div className="mb-2">
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="hover:border-grey h-[50px] w-full border-2 bg-secondary text-center text-white hover:border hover:bg-white hover:text-secondary"
-                  >
+                  <GlowingButton>
                     {isSubmitting ? 'Please wait...' : 'Submit'}
-                  </button>
+                  </GlowingButton>
                 </div>
               </Form>
             )}

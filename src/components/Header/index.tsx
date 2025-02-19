@@ -90,12 +90,15 @@ const Header = () => {
                         <ul
                           className={`${
                             isDropdownOpen[index] ? 'block' : 'lg:hidden'
-                          } rounded pl-4 lg:grid grid-cols-3 grid-rows-2 font-medium drop-shadow-xl lg:absolute top-30 md:left-0 lg:left-[5%] xl:left-[15%] 2xl:left-[30%] lg:min-w-[200px] lg:bg-white lg:pl-0 lg:backdrop-blur-md dark:lg:bg-slate-900/90`}
+                          } rounded pl-4 lg:grid w-full max-w-[80vw] grid-cols-3 grid-rows-2 font-medium drop-shadow-xl lg:absolute top-30
+                          lg:left-1/2 lg:-translate-x-1/2 lg:bg-white lg:pl-0 lg:backdrop-blur-md dark:lg:bg-slate-900/90`}
                         >
                           {links.map(({ label: label2, href: href2, iconSrc }, index2) => (
-                            <li key={`item-link-${index2}`}>
+                            <li key={`item-link-${index2}`}
+                            className='flex w-full'
+                            >
                               <Link
-                                className="flex items-center whitespace-no-wrap first:rounded-t last:rounded-b lg:text-nowrap dark:hover:bg-gray-700 space-x-2 py-3 lg:p-6 hover:bg-[#4fa447] hover:text-white"
+                                className="flex items-center w-full first:rounded-t last:rounded-b text-wrap dark:hover:bg-gray-700 space-x-2 py-3 px-3 lg:p-6 hover:bg-[#4fa447] hover:text-white"
                                 href={href2 as string}
                                 onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleMouseLeave(index))}
                               >

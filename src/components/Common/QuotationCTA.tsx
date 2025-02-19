@@ -1,7 +1,15 @@
+'use client'
 import { QuotationCTAProps } from '@/types/faq';
 import CTA from './CTA';
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
+import { GlowingButton } from '../Header';
 
 const QuotationCTA = ({ bullets }: QuotationCTAProps) => {
+
+  const pathname = usePathname();
+  const isVisible = pathname.includes("/services/notices-to-resolutions");
+
   return (
     <div className="bg-lightGray ">
       <div className="container flex flex-col md:flex-row items-center justify-center gap-8 mx-auto py-16">
@@ -13,7 +21,7 @@ const QuotationCTA = ({ bullets }: QuotationCTAProps) => {
             <h3 className="text-2xl text-center">
               <span className="font-bold">Quotation</span>
               <br />
-              Will be Provided After:
+              Will be Provided After {!isVisible && "Analyzing"}:
             </h3>
             <ul className="font-medium text-xl space-y-4 ">
               {bullets.map((bullet, index) => (
@@ -23,13 +31,11 @@ const QuotationCTA = ({ bullets }: QuotationCTAProps) => {
                 </li>
               ))}
             </ul>
-            <CTA
-              callToAction={{
-                text: 'Get Started',
-                href: '/contact',
-              }}
-              linkClass="btn bg-black w-full text-center dark:bg-white dark:text-black py-4 px-8 text-white text-md font-normal shadow-none md:px-6 mb-4"
-            />
+            <Link href={"/contact"}>
+              <GlowingButton>
+                Get Started
+              </GlowingButton>
+            </Link>
           </div>
         </div>
       </div>
