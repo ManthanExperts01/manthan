@@ -80,7 +80,7 @@ export const headlinePricing: PricingProps = {
           status: 'active',
         },
         {
-          text: 'Salary Above 10 Lakhs upto 50Lakhs <b>@1,999/-</b>',
+          text: 'Salary Above 10 Lakhs upto 50 Lakhs <b>@1,999/-</b>',
           status: 'active',
         },
         {
@@ -109,7 +109,7 @@ export const headlinePricing: PricingProps = {
           status: 'active',
         },
         {
-          text: 'Salary Above 10 Lakhs upto 50Lakhs <b>@2,999/-</b>',
+          text: 'Salary Above 10 Lakhs upto 50 Lakhs <b>@2,999/-</b>',
           status: 'active',
         },
         {
@@ -129,7 +129,7 @@ export const headlinePricing: PricingProps = {
       title: '<b>Income From Business and Profession</b>',
       subtitle: `<ol>
       <li>1. Business Income U/s 44AD/ADA/ADE <b>@2,499/-</b></li>
-      <li>2. Business Income not U/s 44AD/ADA/ADE - <span style="display:block; text-align:center;"><b>Quotation on Demand</b></span></li>
+      <li style="margin-top:5px" >2. Business Income not U/s 44AD/ADA/ADE - <span style="display:block; text-align:center;"><b>Quotation on Demand</b></span></li>
     </ol>`,
       offerList: [
         {
