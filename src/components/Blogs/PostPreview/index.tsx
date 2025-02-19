@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { PostMetadata } from '@/components/Blogs/PostMetadata';
+import DeleteButton from './delete-button';
 
-const PostPreview = (props: PostMetadata & { edit?: boolean }) => {
+const PostPreview = (props: PostMetadata & { admin?: boolean }) => {
   return (
     <div className="max-w-[400px] m-4">
       <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5 flex flex-col h-full">
@@ -21,14 +22,17 @@ const PostPreview = (props: PostMetadata & { edit?: boolean }) => {
             >
               Read more
             </Link>
-            {props.edit && (
-              <Link
-                href={`/admin/blogs/${props.slug}`}
-                className="text-secondary bg-white hover:bg-secondary hover:text-white font-medium text-sm px-3 py-2 text-center inline-flex items-center border-2 border-secondary"
-                passHref
-              >
-                Edit blog
-              </Link>
+            {props.admin && (
+              <>
+                <Link
+                  href={`/admin/blogs/${props.slug}`}
+                  className="text-secondary bg-white hover:bg-secondary hover:text-white font-medium text-sm px-3 py-2 text-center inline-flex items-center border-2 border-secondary"
+                  passHref
+                >
+                  Edit blog
+                </Link>
+                <DeleteButton slug={props.slug} />
+              </>
             )}
           </div>
         </div>

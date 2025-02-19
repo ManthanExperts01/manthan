@@ -46,3 +46,19 @@ export async function POST(req: Request) {
     return NextResponse.json({ message: 'Failed to save blog!' }, { status: 500 });
   }
 }
+
+export async function DELETE(req: Request) {
+  const { slug } = await req.json();
+  try {
+    const mdFilePath = path.join(process.cwd(), 'src', 'shared', 'posts', `${slug}.md`);
+    await fs.unlink(mdFilePath);
+    const imageFilePath = path.join(process.cwd(), 'public', 'images', 'manthan-exprerts', 'blogs', `${slug}.png`);
+    await fs.unlink(imageFilePath);
+    revalidatePath('/blogs');
+    revalidatePath('/admin/blogs');
+    return NextResponse.json({ message: 'Blog deleted successfully!' }, { status: 200 });
+  } catch (err) {
+    console.error('Failed to delete blog!', err);
+    return NextResponse.json({ message: 'Failed to delete blog!' }, { status: 500 });
+  }
+}

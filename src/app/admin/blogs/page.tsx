@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Page = () => {
   const postMetadata = getPostMetadata();
-  const postPreviews = postMetadata.map((post) => <PostPreview key={post.slug} {...post} edit={true} />);
+  const postPreviews = postMetadata.map((post) => <PostPreview key={post.slug} {...post} admin />);
   return (
     <div className="container ">
       <div className="flex px-5 md:px-20 py-5 justify-between mt-4 items-center">
