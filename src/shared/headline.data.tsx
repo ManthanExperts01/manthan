@@ -84,7 +84,7 @@ export const headlinePricing: PricingProps = {
           status: 'active',
         },
         {
-          text: 'Salary Above 50 Lakhs <b>2,999/-</b>',
+          text: 'Salary Above 50 Lakhs <b>@2,999/-</b>',
           status: 'active',
         },
         {
