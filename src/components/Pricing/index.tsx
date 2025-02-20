@@ -45,7 +45,7 @@ const Pricing = ({ headline, pricingDataMonthly, pricingDataYearly }: PricingPro
               onClick={() => setIsMonthly(false)}
               className={`${isMonthly ? 'text-dark dark:text-white' : 'pointer-events-none text-secondary'} ml-4 cursor-pointer text-base font-semibold`}
             >
-              Tax Audit & Tax Notices
+              Tax Audit
             </span>
           </div>
         </div>

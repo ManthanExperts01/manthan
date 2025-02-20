@@ -69,7 +69,7 @@ export const headlinePricing: PricingProps = {
       active: true,
       price: {
         isMonthly: 'CA Assisted ITR',
-        isYearly: 'TAX AUDIT & TAX NOTICES',
+        isYearly: 'TAX AUDIT',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
       title: `<b>Income From Salary and House Property </br> Starting @999/-</b>`,
@@ -98,7 +98,7 @@ export const headlinePricing: PricingProps = {
       active: true,
       price: {
         isMonthly: 'CA Assisted ITR',
-        isYearly: 'TAX AUDIT & TAX NOTICES',
+        isYearly: 'TAX AUDIT',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
       title: '<b>Income From Salary, House Property and Capital Gain </br>Starting @1,999/-</b>',
@@ -123,7 +123,7 @@ export const headlinePricing: PricingProps = {
       active: true,
       price: {
         isMonthly: 'CA Assisted ITR',
-        isYearly: 'TAX AUDIT & TAX NOTICES',
+        isYearly: 'TAX AUDIT',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
       title: '<b>Income From Business and Profession</b>',
@@ -157,10 +157,10 @@ export const headlinePricing: PricingProps = {
       active: true,
       price: {
         isMonthly: 'CA Assisted ITR',
-        isYearly: 'TAX AUDIT & TAX NOTICES',
+        isYearly: 'TAX AUDIT',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
-      title: `<b>Tax Audit-Profit and Loss and Balance Sheet Available</br> Starting @4,999/-</b>`,
+      title: `<b>Tax Audit - Profit and Loss and Balance Sheet Available</br> Starting @4,999/-</b>`,
       subtitle: ``,
       offerList: [
         {
@@ -186,7 +186,7 @@ export const headlinePricing: PricingProps = {
       active: true,
       price: {
         isMonthly: 'CA Assisted ITR',
-        isYearly: 'TAX AUDIT & TAX NOTICES',
+        isYearly: 'TAX AUDIT',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
       title: `<b>Tax Audit - Profit and Loss and Balance Sheet Not Available </br> Starting @9,999/-</b>`,
@@ -215,7 +215,7 @@ export const headlinePricing: PricingProps = {
       active: true,
       price: {
         isMonthly: 'CA Assisted ITR',
-        isYearly: 'TAX AUDIT & TAX NOTICES',
+        isYearly: 'TAX AUDIT',
       },
       duration: { isMonthly: 'mo', isYearly: 'yr' },
       title: `Tax Notice – <b>Quotation on Demand</b>`,
