@@ -88,7 +88,7 @@ export const headlinePricing: PricingProps = {
           status: 'active',
         },
         {
-          text: 'Salary from more than one Employer <b>@1,999/-</b>',
+          text: 'Salary From More Than One Employer <b>@1,999/-</b>',
           status: 'active',
         },
       ],

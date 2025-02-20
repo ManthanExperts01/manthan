@@ -46,7 +46,7 @@ const Footer = () => {
               >
                 <FaInstagram className="text-[#E1306C] text-2xl" />
               </motion.a>
-              <motion.a href="https://www.linkedin.com/company/manthan-experts" className="me-6" target="_blank"
+              <motion.a href="https://www.linkedin.com/in/manthan-experts-19a9a31ab/" className="me-6" target="_blank"
               whileHover={{
                 y: -7
               }}
@@ -60,7 +60,7 @@ const Footer = () => {
               >
                 <FaYoutube className="text-[#FF0000] text-2xl" />
               </motion.a>
-              <motion.a href="https://in.pinterest.com/manthanexperts" className="me-6" target="_blank"
+              <motion.a href="https://in.pinterest.com/manthan_experts" className="me-6" target="_blank"
               whileHover={{
                 y: -7
               }}

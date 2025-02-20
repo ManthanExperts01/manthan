@@ -40,7 +40,7 @@ const heroBannerWithForm2Data = {
   title: 'Income Tax Demands? Expert Solutions for Every Tax Challenge!',
   bullets: [
     'Income Tax and Demand Assessments Simplified - Let Us Handle it!',
-    'Quick, Reliable, and hassle-Free Solutions at Unbeatable Prices, Backed by Expert CA Assistance!',
+    'Quick, Reliable, and Hassle-Free Solutions at Unbeatable Prices, Backed by Expert CA Assistance!',
   ],
 };
 const quotationCTAData = {

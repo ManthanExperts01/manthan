@@ -19,9 +19,9 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        title="Have a question or feedback?"
+        title="Have a Question or Feedback?"
         pageName="Contact"
-        description="Reach out to us – we are here to assist you. Contact our dedicated team for prompt support and assistance."
+        description="Reach Out to Us - We are Here to Assist You. Contact Our Dedicated Team for Prompt Support and Assistance."
       />
 
       {headlineDataContact && <ContactUsHorizontalCard {...headlineDataContact} />}
