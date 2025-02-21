@@ -27,8 +27,8 @@ services:
     volumes:
       - ./nginx:/usr/src/app
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
-      - /etc/letsencrypt/live/manthanexperts.com/fullchain.pem:/etc/letsencrypt/live/manthanexperts.com/fullchain.pem:ro
-      - /etc/letsencrypt/live/manthanexperts.com/privkey.pem:/etc/letsencrypt/live/manthanexperts.com/privkey.pem:ro
+      - /etc/letsencrypt/live/www.manthanexperts.com/fullchain.pem:/etc/letsencrypt/live/www.www.manthanexperts.com/fullchain.pem:ro
+      - /etc/letsencrypt/live/www.manthanexperts.com/privkey.pem:/etc/letsencrypt/live/www.manthanexperts.com/privkey.pem:ro
     restart: always
     depends_on:
       - nextjs
