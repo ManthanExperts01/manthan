@@ -107,20 +107,26 @@
   }
   
   .blog-preview h3 {
-    margin-top: 1rem;
-    margin-bottom: 0.6rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
     font-size: 1.5rem;
   }
   
   .blog-preview p {
-    margin-top: 0.6rem;
-    margin-bottom: 0.6rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
     line-height: 1.6;
   }
   
   .blog-preview ul, .blog-preview ol {
     padding-left: 1.5rem;
-    margin-bottom: 1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .blog-preview li {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
   }
   
   .blog-preview img {
