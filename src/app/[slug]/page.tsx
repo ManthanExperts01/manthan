@@ -54,7 +54,7 @@ const PostPage = ({ params }: { params: { slug: string } }) => {
 
   return (
     <div className="container">
-      <div className="my-2 text-center px-1 font-semibold text-secondary text-base md:text-lg tracking-wide">
+      <div className="my-1 text-center px-1 font-semibold text-secondary text-base md:text-lg tracking-wide">
         <span className="flex justify-center">
           {post.data.category.map((category: string, index: number) => (
             <div key={`category-${index}`} className="pr-4">
@@ -71,9 +71,9 @@ const PostPage = ({ params }: { params: { slug: string } }) => {
         <figure className="flex justify-center">
           <ImageFallback src={post.data.featured_image} alt="" width={800} height={480} priority />
         </figure>
-        <div className="my-6 space-y-6">
+        <div className="my-2 space-y-2">
           <h2 className="text-4xl font-bold text-black">Table of Contents</h2>
-          <ul className="list-disc space-y-2 pl-5">
+          <ul className="list-disc pl-5">
             {tocs.map((item, index) => (
               <li className="underline text-xl" key={index}>
                 <a href={`#${item.id}`} className="text-blue-500">
@@ -83,14 +83,14 @@ const PostPage = ({ params }: { params: { slug: string } }) => {
             ))}
           </ul>
         </div>
-        <div className="prose max-w-[100%]">
-          <div className="my-10 blog-preview" dangerouslySetInnerHTML={{ __html: content }}></div>
+        <div className="prose max-w-[100%] border">
+          <div className="blog-preview prose prose-lg max-w-none prose-a:m-0" dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>
       </article>
       {callToAction && (
         <CTA
           callToAction={callToAction}
-          linkClass="btn bg-black dark:bg-white dark:text-black m-1 py-4 px-8 text-white text-md font-normal shadow-none md:px-6 mb-20"
+          linkClass="btn bg-black dark:bg-white dark:text-black m-1 py-2 px-8 text-white text-md font-normal shadow-none md:px-6 mb-10"
         />
       )}
     </div>
