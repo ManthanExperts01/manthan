@@ -145,9 +145,12 @@ const Contact = ({ classNameContainer, headline }: ContactProps) => {
                 </div>
                 <div className="g-recaptcha" data-sitekey="6Lf6d-QpAAAAAJjH24XCH0lJX8U8kCJs1nXZu8pg"></div>
                 <div className="mb-2">
-                  <GlowingButton>
+                  <button 
+                  type='submit'
+                  className='bg-[#4fa447] w-full text-white rounded-10px border-none cursor-pointer inline-block font-arial text-lg text-center no-underline animate-glowing px-8 py-3 whitespace-nowrap font-medium'
+                  >
                     {isSubmitting ? 'Please wait...' : 'Submit'}
-                  </GlowingButton>
+                  </button>
                 </div>
               </Form>
             )}
