@@ -18,7 +18,7 @@ export async function POST(req: Request) {
   const buffer = new Uint8Array(await file.arrayBuffer());
   await fs.writeFile(imagePath, buffer);
 
-  const imageUrl = `/uploads/${fileName}`;
+  const imageUrl = `/images/manthan-exprerts/blogs/${fileName}`;
   console.log(imageUrl);
   
   return NextResponse.json({ imageUrl }, { status: 201 });
