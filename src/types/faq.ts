@@ -96,7 +96,7 @@ export type HeadlineProps = {
 };
 export type Item = {
   title?: string | boolean | number;
-  description?: string | Array<string>;
+  description?: string;
   href?: string;
   form?: SmallForm;
   icon?: Icon;
