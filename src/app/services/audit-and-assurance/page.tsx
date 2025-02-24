@@ -27,7 +27,7 @@ const heroBannerData = {
   image: 'audit-and-assurance',
   list1: (
     <>
-      Trusted by<span className="text-[#4fa447] font-bold"> 200+ </span>Clients
+      Trusted by<span className="text-[#4fa447] font-bold"> 200+ </span> Clients
     </>
   ),
   list2: (
