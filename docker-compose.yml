@@ -13,6 +13,7 @@ services:
     volumes:
       - ./src/shared/posts:/app/src/shared/posts  # Persist blog posts
       - ./public/images:/app/public/images
+      - ./public/uploads:/app/public/uploads
     networks:
       - app-network
 
