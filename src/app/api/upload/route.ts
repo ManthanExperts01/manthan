@@ -11,7 +11,7 @@ export async function POST(req: Request) {
   }
 
   const fileName = `${Date.now()}-${file.name}`;
-  const imagePath = path.join(process.cwd(), "public", "uploads", fileName);
+  const imagePath = path.join(process.cwd(), 'public', 'images', 'manthan-exprerts', 'blogs', fileName);
 
   await fs.mkdir(path.dirname(imagePath), { recursive: true });
 
