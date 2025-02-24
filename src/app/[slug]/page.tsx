@@ -83,7 +83,7 @@ const PostPage = ({ params }: { params: { slug: string } }) => {
             ))}
           </ul>
         </div>
-        <div className="prose max-w-[100%] border">
+        <div className="prose max-w-[100%]">
           <div className="blog-preview prose prose-lg max-w-none prose-a:m-0" dangerouslySetInnerHTML={{ __html: content }}></div>
         </div>
       </article>
