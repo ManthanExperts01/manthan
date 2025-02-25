@@ -11,7 +11,7 @@ export function middleware(request: NextRequest) {
     }
     return NextResponse.next();
   }
-  if (url.pathname === '/api/login' || url.pathname === '/api/logout') {
+  if (url.pathname === '/api/login' || url.pathname === '/api/logout' || url.pathname === '/api/send-email') {
     return NextResponse.next();
   }
   if (url.pathname.startsWith('/admin')) {

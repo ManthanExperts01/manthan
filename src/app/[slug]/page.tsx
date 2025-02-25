@@ -90,7 +90,7 @@ const PostPage = ({ params }: { params: { slug: string } }) => {
       {callToAction && (
         <CTA
           callToAction={callToAction}
-          linkClass="btn bg-black dark:bg-white dark:text-black m-1 py-2 px-8 text-white text-md font-normal shadow-none md:px-6 mb-10"
+          linkClass="bg-[#4fa447] text-white rounded-10px border-none cursor-pointer inline-block font-arial text-lg text-center no-underline animate-glowing px-8 py-3 whitespace-nowrap font-medium mb-2"
         />
       )}
     </div>
