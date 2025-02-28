@@ -10,3 +10,4 @@ module.exports.SITE = {
   base_path: '/',
   favicon: '/images/favicon.png',
 };
+
