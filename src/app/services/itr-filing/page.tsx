@@ -65,7 +65,7 @@ const helpfulBlogsData = {
     },
     {
       label: 'Benefits of Filing Income Tax Return',
-      href: '/articles-link',
+      href: '/benefits-of-filing-income-tax-return',
     },
     {
       label: 'Income Tax Penalty',
