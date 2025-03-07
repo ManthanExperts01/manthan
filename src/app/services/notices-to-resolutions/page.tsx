@@ -62,8 +62,8 @@ const helpfulBlogsData = {
       href: '/articles-link',
     },
     {
-      label: 'Preventive Measures to Avoid Notices & Demand',
-      href: '/articles-link',
+      label: 'Preventive Measures to Avoid Income Tax Notice & Demand',
+      href: '/preventive-measures-to-avoid-income-tax-notice--demand',
     },
   ],
 };
