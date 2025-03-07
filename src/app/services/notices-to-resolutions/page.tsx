@@ -54,8 +54,8 @@ const helpfulBlogsData = {
   ],
   lists: [
     {
-      label: 'Types of Income Tax Notices (Sections & Reasons)',
-      href: '/articles-link',
+      label: 'Income Tax Notices: Types, Reasons & How to Respond',
+      href: '/income-tax-notices-types-reasons--how-to-respond',
     },
     {
       label: 'Defective Notice & Faceless Scrutiny',
