@@ -56,8 +56,8 @@ const helpfulBlogsData = {
   ],
   lists: [
     {
-      label: 'Eligibility for Filing Income Tax Return',
-      href: '/articles-link',
+      label: 'Who is Required to File Income Tax Returns (ITR) in India?',
+      href: '/who-is-required-to-file-income-tax-returns-itr-in-india',
     },
     {
       label: 'Types of Income Tax Forms',
