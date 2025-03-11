@@ -55,8 +55,8 @@ const helpfulBlogsData = {
   ],
   lists: [
     {
-      label: 'Complete Guide on ESIC(Employee’s State Insurance Corporation)',
-      href: '/articles-link',
+      label: 'ESIC Registration Made Easy Process, Benefits, Documents',
+      href: '/esic-registration-made-easy-process-benefits-documents',
     },
     {
       label: 'Complete Guide on EPF(Employee’s Provident Fund)',
