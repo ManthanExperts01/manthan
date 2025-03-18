@@ -26,44 +26,44 @@ const Footer = () => {
             </div>
             <div className="flex justify-center">
               <motion.a href="https://www.facebook.com/manthanexperts1" className="me-6" target="_blank"
-              whileHover={{
-                y: -7
-              }}
+                whileHover={{
+                  y: -7
+                }}
               >
                 <FaFacebook className="text-[#1877F2] text-2xl" />
               </motion.a>
               <motion.a href="https://x.com/ManthanExperts" className="me-6 " target="_blank"
-              whileHover={{
-                y: -7
-              }}
+                whileHover={{
+                  y: -7
+                }}
               >
                 <FaSquareXTwitter className="  text-2xl" />
               </motion.a>
               <motion.a href="https://www.instagram.com/manthan_experts" className="me-6" target="_blank"
-              whileHover={{
-                y: -7
-              }}
+                whileHover={{
+                  y: -7
+                }}
               >
                 <FaInstagram className="text-[#E1306C] text-2xl" />
               </motion.a>
               <motion.a href="https://www.linkedin.com/in/manthan-experts-19a9a31ab/" className="me-6" target="_blank"
-              whileHover={{
-                y: -7
-              }}
+                whileHover={{
+                  y: -7
+                }}
               >
                 <FaLinkedin className="text-[#0077B5] text-2xl" />
               </motion.a>
               <motion.a href="https://www.youtube.com/channel/UCwXMeuaMTCfAIsdLj4iyRjA" className="me-6" target="_blank"
-              whileHover={{
-                y: -7
-              }}
+                whileHover={{
+                  y: -7
+                }}
               >
                 <FaYoutube className="text-[#FF0000] text-2xl" />
               </motion.a>
               <motion.a href="https://in.pinterest.com/manthan_experts" className="me-6" target="_blank"
-              whileHover={{
-                y: -7
-              }}
+                whileHover={{
+                  y: -7
+                }}
               >
                 <FaPinterest className="text-[#E60023] text-2xl" />
               </motion.a>
@@ -96,9 +96,10 @@ const Footer = () => {
                   />
                 </div>
                 <p className="text-justify hyphens-none">
-                  Manthan Experts is a leading provider of comprehensive income tax return services in India. With a
-                  team of highly skilled tax professionals and a commitment to excellence, we specialize in delivering
-                  accurate, timely, and personalized solutions to meet our clients diverse income tax needs.
+                  Manthan Experts provides expert tax and financial services in India,
+                  specializing in ITR e-filing, Income Tax Notices, GST management, Accounting, Audit, and Payroll.
+                  Our skilled team ensures accuracy, compliance, and efficiency, offering tailored solutions for
+                  seamless tax filing and financial management to meet the unique needs of businesses and individuals.
                 </p>
               </div>
               <div>
