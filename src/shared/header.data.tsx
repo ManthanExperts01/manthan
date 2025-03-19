@@ -6,7 +6,7 @@ export const headerData: HeaderProps = {
   links: [
     {
       label: "About Us",
-      href: "/#about-section", // Change to absolute path
+      href: "/about-us", // Change to absolute path
     },
     {
       label: "Our Services",
