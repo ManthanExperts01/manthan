@@ -59,7 +59,6 @@ const HeroSection = () => {
     <div className="bg-green-900 text-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
-          <h2 className="text-green-400 text-2xl font-semibold mb-4">Manthan Experts</h2>
           <h1 className="text-4xl md:text-4xl font-bold">
             Your One Stop Destination for <br /> Financial Services
           </h1>
