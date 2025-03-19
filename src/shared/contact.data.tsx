@@ -28,7 +28,13 @@ export const faqsData: FAQsProps = {
     },
     {
       title: "What are the services offered by Manthan Experts?",
-      description: `Manthan works on the philosophy that ‘YOU’ deserve the best. With this aim, we strive to provide the best income tax solutions to all our clients. which Includes Income Tax Returns (ITR) Filing, Tax planning, Tax Audits, Compliance, Advisory services, and Consultancy on Income Tax Notice.`,
+      description: `We provide end-to-end financial and compliance solutions, ensuring that businesses remain compliant while optimizing their financial performance. Our core services include:
+    1. Income Tax E-Filing & Return Preparation
+    2. Income Tax Notice Solutions & Representation
+    3. Comprehensive GST Management
+    4. Accounting & Bookkeeping Services
+    5. Audit & Assurance Services
+    6. Payroll & HR Compliance Services`,
     },
     {
       title: "How Manthan Experts maintains the Confidentiality of the Clients?",
