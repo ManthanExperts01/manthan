@@ -63,7 +63,6 @@ const HeroSection = () => {
     <div className="bg-[#052E26] text-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
-          <h2 className="text-green-400 text-2xl font-semibold mb-4">Manthan Experts</h2>
           <h1 className="text-4xl md:text-5xl font-bold">
             Your One Stop Destination for <br /> Financial Services
           </h1>
@@ -172,7 +171,6 @@ const TrustedPartnerSection = () => {
     <div className="bg-[#052E26] text-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
-          <h2 className="text-green-400 text-2xl font-semibold mb-4">Manthan Experts</h2>
           <h1 className="text-4xl md:text-5xl font-bold">
             Your Trusted Partner for Accounting, <br /> Tax & Compliance Solutions
           </h1>
@@ -214,7 +212,6 @@ const StressFreeTaxSection = () => {
     <div className="bg-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-green-600 text-2xl md:text-3xl font-semibold mb-4">Manthan Experts</h2>
           <h1 className="text-3xl md:text-5xl font-bold mb-8">Your Gateway to Stress-Free Tax Solutions</h1>
 
           <p className="text-lg max-w-4xl mx-auto">
