@@ -31,6 +31,10 @@ const AboutUsPage = () => {
 
       {/* Section 6 */}
       <WhyChooseSection />
+
+      {/* Section 7 */}
+      <OurCommitmentExcellence />
+
       <SecondaryFooter />
     </div>
   );
@@ -45,7 +49,7 @@ const HeroBanner = ({ title, image }: HeroBannerData) => {
           className={`absolute inset-0 bg-cover bg-center z-0`}
         ></div>
         <div className="relative h-full flex items-center justify-center z-10">
-          <h5 className="md:w-[800px] text-center font-bold text-3xl tracking-tight text-white dark:text-white lg:text-5xl">
+          <h5 className="md:w-[800px] text-center font-bold text-3xl tracking-tight text-white dark:text-white lg:text-6xl">
             {title}
           </h5>
         </div>
@@ -56,10 +60,11 @@ const HeroBanner = ({ title, image }: HeroBannerData) => {
 // Section 1: Hero Section
 const HeroSection = () => {
   return (
-    <div className="bg-green-900 text-white p-8 md:p-16">
+    <div className="bg-[#052E26] text-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-4xl md:text-4xl font-bold">
+          <h2 className="text-green-400 text-2xl font-semibold mb-4">Manthan Experts</h2>
+          <h1 className="text-4xl md:text-5xl font-bold">
             Your One Stop Destination for <br /> Financial Services
           </h1>
         </div>
@@ -110,14 +115,14 @@ const CommitmentSection = () => {
   return (
     <div className="bg-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Commitment</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">Our Commitment</h2>
 
         <div className="flex flex-col md:flex-row">
           <div className="md:w-2/3 mb-8 md:mb-0">
             {commitments.map((commitment, index) => (
               <div key={index} className="flex mb-8">
                 <div className="mr-4 mt-1">
-                  <div className="text-green-600 flex items-center justify-center">
+                  <div className="text-[#052E26] flex items-center justify-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6"
@@ -164,16 +169,16 @@ const CommitmentSection = () => {
 // Section 3: Trusted Partner Section
 const TrustedPartnerSection = () => {
   return (
-    <div className="bg-green-900 text-white p-8 md:p-16">
+    <div className="bg-[#052E26] text-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
-      <div className="text-center mb-8">
-          <h1 className="text-4xl md:text-4xl font-bold">
-          Your Trusted Partner for Accounting, <br /> Tax & Compliance Solutions
+        <div className="text-center mb-8">
+          <h2 className="text-green-400 text-2xl font-semibold mb-4">Manthan Experts</h2>
+          <h1 className="text-4xl md:text-5xl font-bold">
+            Your Trusted Partner for Accounting, <br /> Tax & Compliance Solutions
           </h1>
         </div>
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-3/5 pr-0 md:pr-8">
-
             <p className="text-lg mb-6">
               Since its establishment in 2013, Manthan Experts has grown into a trusted full-service accounting, tax,
               and audit firm, catering to businesses, entrepreneurs, and individuals across diverse industries. Our firm
@@ -209,6 +214,7 @@ const StressFreeTaxSection = () => {
     <div className="bg-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
+          <h2 className="text-green-600 text-2xl md:text-3xl font-semibold mb-4">Manthan Experts</h2>
           <h1 className="text-3xl md:text-5xl font-bold mb-8">Your Gateway to Stress-Free Tax Solutions</h1>
 
           <p className="text-lg max-w-4xl mx-auto">
@@ -284,9 +290,9 @@ const ExpertiseSection = () => {
   ];
 
   return (
-    <div className="bg-green-900 text-white p-8 md:p-16">
+    <div className="bg-[#052E26] text-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">
           Our Area of <span className="text-green-400">Expertise</span>
         </h2>
 
@@ -358,7 +364,7 @@ const WhyChooseSection = () => {
   return (
     <div className="bg-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">
           Why Choose <span className="text-green-600">Manthan Experts</span>?
         </h2>
 
@@ -395,35 +401,42 @@ const WhyChooseSection = () => {
             />
           </div>
         </div>
+      </div>
+    </div>
+  );
+};
 
-        <div className="bg-green-900 text-white p-8 rounded-lg">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
-            Our <span className="text-green-400">Commitment</span> to Excellence
-          </h2>
+const OurCommitmentExcellence = () => {
+  return (
+    <div className="bg-[#052E26] text-white p-8">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-2xl md:text-5xl font-bold mb-6 text-center">
+          Our <span className="text-green-400">Commitment</span> to Excellence
+        </h2>
 
-          <p className="text-center mb-8">
-            At Manthan Experts, we uphold the highest standards of professionalism, integrity, and accountability. Our
-            mission is to exceed client expectations by delivering reliable, high-quality, and innovative accounting,
-            tax, and audit services. Our professionals continually enhance their knowledge to provide solutions that are
-            not only accurate but also strategically aligned with our clients' financial goals.
-          </p>
+        <p className="text-center mb-8">
+          At Manthan Experts, we uphold the highest standards of professionalism, integrity, and accountability. Our
+          mission is to exceed client expectations by delivering reliable, high-quality, and innovative accounting, tax,
+          and audit services. Our professionals continually enhance their knowledge to provide solutions that are not only
+          accurate but also strategically aligned with our clients' financial goals.
+        </p>
 
-          <p className="text-center mb-8">
-            We aim to build long-term relationships based on trust, transparency, and success, ensuring that our clients
-            receive the best financial guidance for their business growth.
-          </p>
+        <p className="text-center mb-8">
+          We aim to build long-term relationships based on trust, transparency, and success, ensuring that our clients
+          receive the best financial guidance for their business growth.
+        </p>
 
-          <div className="flex justify-center">
-            <img
-              src="https://s3-alpha-sig.figma.com/img/f164/c5ad/0d4e36dadf161906aa451647f5915802?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jtlyCeD50wGFOY0C20oK8~6tJBJIeEeQuCCmYgprlNx9MdiDXjRCFj7Nu0fyyu6pQ9yYYk2PPjqWpivpX8dLg-MOsAiNV2atxft3~HpLq3iSwJytCqCG0fmNXdvmMl2RiwfL0DVQNSJZxUi3n9S6JZhX3AzoXeK-I78KbqH4AaZLlm35wUQxW7mR77-REgb~pPs8EisN3TJ06l-vJNpMTLv1K8UTUhJBfk2DyVYUpNI9zVvSsltQ-1geHIxUVrexQjp8NzcDd6v7DLvE3ZPJLXC64u~YSdfjXl9yah-Ag1c-1e~OfRdI7g5r9QcEp-YzZlDfvgYyUZWwQRpmcWMaYQ__"
-              alt="Thumbs up illustration"
-              className="max-w-xs"
-            />
-          </div>
+        <div className="flex justify-center">
+        <img
+            src="https://s3-alpha-sig.figma.com/img/f164/c5ad/0d4e36dadf161906aa451647f5915802?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jtlyCeD50wGFOY0C20oK8~6tJBJIeEeQuCCmYgprlNx9MdiDXjRCFj7Nu0fyyu6pQ9yYYk2PPjqWpivpX8dLg-MOsAiNV2atxft3~HpLq3iSwJytCqCG0fmNXdvmMl2RiwfL0DVQNSJZxUi3n9S6JZhX3AzoXeK-I78KbqH4AaZLlm35wUQxW7mR77-REgb~pPs8EisN3TJ06l-vJNpMTLv1K8UTUhJBfk2DyVYUpNI9zVvSsltQ-1geHIxUVrexQjp8NzcDd6v7DLvE3ZPJLXC64u~YSdfjXl9yah-Ag1c-1e~OfRdI7g5r9QcEp-YzZlDfvgYyUZWwQRpmcWMaYQ__"
+            alt="Thumbs up illustration"
+            className="max-w-xs"
+          />
         </div>
       </div>
     </div>
   );
 };
+
 
 export default AboutUsPage;
