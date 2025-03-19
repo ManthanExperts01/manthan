@@ -18,7 +18,13 @@ export const faqsData: FAQsProps = {
   items: [
     {
       title: "What is Manthan Experts?",
-      description: `Manthan Experts is a professional services firm specializing in providing comprehensive support and expertise in the field of income tax. The company offers a wide range of services, including tax planning, preparation, compliance, and advisory services to individuals and businesses. With an emphasis on personalized attention and in-depth knowledge of tax laws and regulations, Manthan Experts aims to deliver tailored solutions that help clients optimize their tax positions and achieve financial peace of mind.`,
+      description: `Manthan Experts is a trusted provider of comprehensive tax and financial services in India, offering
+    expert solutions for businesses and individuals. Our skilled team specializes in ITR e-filing, Income
+    Tax Demand and Notice resolution, GST management, Accounting and Bookkeeping, Audit and
+    Assurance and Payroll Services. With a commitment to accuracy, compliance, and efficiency, we
+    ensure seamless tax filing, regulatory adherence, and financial transparency. Whether you need
+    assistance with tax compliance, managing notices, or streamlining your financial operations,
+    Manthan Experts delivers tailored, timely, and reliable solutions to meet your unique needs.`,
     },
     {
       title: "What are the services offered by Manthan Experts?",
