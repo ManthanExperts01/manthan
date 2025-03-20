@@ -7,7 +7,7 @@ interface HeroBannerData {
 
 const AboutUsPage = () => {
   const heroBannerData: HeroBannerData = {
-    title: 'About Us',
+    title: '',
     image: 'aboutus',
   };
   return (
