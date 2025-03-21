@@ -68,8 +68,8 @@ const helpfulBlogsData = {
       href: '/benefits-of-filing-income-tax-return',
     },
     {
-      label: 'Income Tax Penalty',
-      href: '/articles-link',
+      label: 'Income Tax Penalty for Late Filing & Non-Compliance',
+      href: '/income-tax-penalty-for-late-filing--non-compliance',
     },
   ],
 };
