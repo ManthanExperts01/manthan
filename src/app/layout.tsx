@@ -48,6 +48,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         {/* End Google Tag Manager script */}
+
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2836637556511208"
+          crossOrigin="anonymous">
+        </script>
       </head>
       <body className={`bg-[#FCFCFC] dark:bg-black`}>
         {/* Google Tag Manager (noscript) */}
