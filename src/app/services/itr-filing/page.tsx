@@ -60,8 +60,8 @@ const helpfulBlogsData = {
       href: '/who-is-required-to-file-income-tax-returns-itr-in-india',
     },
     {
-      label: 'Types of Income Tax Forms',
-      href: '/articles-link',
+      label: 'Different Income Tax Forms You Should Know Before Filing',
+      href: '/different-income-tax-forms-you-should-know-before-filing',
     },
     {
       label: 'Benefits of Filing Income Tax Return',
