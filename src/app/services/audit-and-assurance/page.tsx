@@ -64,8 +64,8 @@ const helpfulBlogsData = {
       href: '/articles-link',
     },
     {
-      label: 'GST Audit',
-      href: '/articles-link',
+      label: 'GST Audit: Types, Process, and Requirements',
+      href: '/gst-audit-types-process-and-requirements',
     },
   ],
 };
