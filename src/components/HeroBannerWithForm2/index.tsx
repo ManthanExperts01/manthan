@@ -38,8 +38,8 @@ const HeroBannerWithForm2 = ({ headline, title, bullets }: HeroBannerWithForm2Pr
               </GlowingButton>
             </Link>
             <div className="flex gap-8 flex-wrap items-center">
-              <img className="w-48" src="/images/ratings/google.png" alt="" />
-              <img className="w-48" src="/images/ratings/trustpilot.png" alt="" />
+              <img className="w-48" src="/images/ratings/google.png" alt="google Rating" />
+              <img className="w-48" src="/images/ratings/trustpilot.png" alt="trust score" />
             </div>
           </div>
         </div>
