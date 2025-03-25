@@ -58,8 +58,8 @@ const helpfulBlogsData = {
       href: '/income-tax-notices-types-reasons--how-to-respond',
     },
     {
-      label: 'Defective Notice & Faceless Scrutiny',
-      href: '/articles-link',
+      label: 'How to Respond Defective Return Notice Under Section 139(9)',
+      href: '/how-to-respond-defective-return-notice-under-section-1399',
     },
     {
       label: 'Preventive Measures to Avoid Income Tax Notice & Demand',
