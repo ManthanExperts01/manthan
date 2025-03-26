@@ -36,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html suppressHydrationWarning lang="en">
       <head>
       <link rel="canonical" href="https://www.manthanexperts.com/" />
+      <link rel="canonical" href="https://www.manthanexperts.com/benefits-of-filing-income-tax-return" />
         {/* Google Tag Manager script */}
         <script
           dangerouslySetInnerHTML={{
