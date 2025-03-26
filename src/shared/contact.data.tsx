@@ -20,7 +20,7 @@ export const faqsData: FAQsProps = {
       title: "What is Manthan Experts?",
       description: `Manthan Experts is a trusted provider of comprehensive tax and financial services in India, offering
     expert solutions for businesses and individuals. Our skilled team specializes in ITR e-filing, Income
-    Tax Demand and Notice resolution, GST management, Accounting and Bookkeeping, Audit and
+    Tax Demand and Notice resolution, GST Services, Accounting and Bookkeeping, Audit and
     Assurance and Payroll Services. With a commitment to accuracy, compliance, and efficiency, we
     ensure seamless tax filing, regulatory adherence, and financial transparency. Whether you need
     assistance with tax compliance, managing notices, or streamlining your financial operations,
@@ -31,7 +31,7 @@ export const faqsData: FAQsProps = {
       description: `We provide end-to-end financial and compliance solutions, ensuring that businesses remain compliant while optimizing their financial performance. Our core services include:
     <ol><li><strong>1. Income Tax E-Filing & Return Preparation</strong></li>
     <li><strong>2. Income Tax Notice Solutions & Representation</strong></li>
-    <li><strong>3. Comprehensive GST Management</strong></li>
+    <li><strong>3. Comprehensive GST Services</strong></li>
     <li><strong>4. Accounting & Bookkeeping Services</strong></li>
     <li><strong>5. Audit & Assurance Services</strong></li>
     <li><strong>6. Payroll & HR Compliance Services</strong></li></ol>`,

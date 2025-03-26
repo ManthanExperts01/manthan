@@ -24,7 +24,7 @@ const featuresData: Feature[] = [
   {
     id: 3,
     serviceNumber: "03",
-    title: "GST Management",
+    title: "GST Services",
     paragraph:
       "Our Team Thoroughly Reviews your GST Documents to Ensure Compliance with Ever-Evolving Regulations, Ensuring Smooth Registration, Accurate Return Filing, and Efficient Resolutions of GST Notices.",
     cta: "Learn More",

@@ -253,7 +253,7 @@ const ExpertiseSection = () => {
       ],
     },
     {
-      title: 'Comprehensive GST Management',
+      title: 'Comprehensive GST Services',
       points: [
         'End-to-end GST registration, return filing, reconciliation, and audit assistance.',
         'Expert advisory on Input tax credit (ITC), GST compliance, and regulatory changes.',

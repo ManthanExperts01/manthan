@@ -23,7 +23,7 @@ export const headerData: HeaderProps = {
           iconSrc: "resolutions"
         },
         {
-          label: "GST Management",
+          label: "GST Services",
           href: "/services/gst-registration-return-filing-and-notice",
           iconSrc: "gst"
         },

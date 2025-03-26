@@ -97,7 +97,7 @@ const Footer = () => {
                 </div>
                 <p className="text-justify hyphens-none">
                   Manthan Experts provides expert tax and financial services in India,
-                  specializing in ITR e-filing, Income Tax Notices, GST management, Accounting, Audit, and Payroll.
+                  specializing in ITR e-filing, Income Tax Notices, GST Services, Accounting, Audit, and Payroll.
                   Our skilled team ensures accuracy, compliance, and efficiency, offering tailored solutions for
                   seamless tax filing and financial management to meet the unique needs of businesses and individuals.
                 </p>
@@ -120,7 +120,7 @@ const Footer = () => {
                     />
                   </p>
                   <p className="mb-4">
-                    <LinkWithAnimation href="/services/gst-registration-return-filing-and-notice" LinkText="GST Management" className="text-white after:bg-white" />
+                    <LinkWithAnimation href="/services/gst-registration-return-filing-and-notice" LinkText="GST Services" className="text-white after:bg-white" />
                   </p>
                   <p className="mb-4">
                     <LinkWithAnimation

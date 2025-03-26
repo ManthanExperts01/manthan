@@ -5,5 +5,5 @@ module.exports.SITE = {
   trailingSlash: false,
   title: 'Manthan Experts',
   description:
-    'Manthan Experts provides expert tax and financial services in India, specializing in ITR e-filing, Income Tax Notices, GST management, Accounting, Audit, and Payroll.',
+    'Manthan Experts provides expert tax and financial services in India, specializing in ITR e-filing, Income Tax Notices, GST Services, Accounting, Audit, and Payroll.',
 };
