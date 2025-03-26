@@ -35,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html suppressHydrationWarning lang="en">
       <head>
+      <link rel="canonical" href="https://www.manthanexperts.com/" />
         {/* Google Tag Manager script */}
         <script
           dangerouslySetInnerHTML={{
