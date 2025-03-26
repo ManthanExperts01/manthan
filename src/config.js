@@ -5,7 +5,7 @@ module.exports.SITE = {
   trailingSlash: false,
   title: 'Manthan Experts',
   description:
-    'Manthan Experts is a team of Trustworthy advisors which includes Chartered Accountants, Company Secretaries, Fund Managers, IT Professionals',
+    'Manthan Experts provides expert tax and financial services in India, specializing in ITR e-filing, Income Tax Notices, GST management, Accounting, Audit, and Payroll.',
   base_url: 'https://manthanexperts.com',
   base_path: '/',
   favicon: '/images/favicon.png',
