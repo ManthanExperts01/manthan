@@ -37,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
       <link rel="canonical" href="https://www.manthanexperts.com/" />
       <link rel="canonical" href="https://www.manthanexperts.com/benefits-of-filing-income-tax-return" />
+      <link rel="canonical" href="https://www.manthanexperts.com/taxability-on-agricultural-income-rules-exemptions--tax-implications-in-india" />
       <link rel="canonical" href="https://www.manthanexperts.com/how-to-treat-income-earned-from-private-tuitions-in-income-tax-returns" />
         {/* Google Tag Manager script */}
         <script
