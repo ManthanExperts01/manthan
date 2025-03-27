@@ -48,6 +48,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             `,
           }}
         />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-95PPZZR9K8"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-95PPZZR9K8');
+            `,
+          }}
+        />
         {/* End Google Tag Manager script */}
 
         <script 
