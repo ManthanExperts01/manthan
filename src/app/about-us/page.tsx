@@ -142,7 +142,7 @@ const CommitmentSection = () => {
 
           <div className="md:w-1/3 md:pl-8 flex items-center justify-center">
             <img
-              src="https://s3-alpha-sig.figma.com/img/c9f9/6892/c045a4f52eb652220fed1f46912f4ec9?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=sLzV-3yNhHsFAYnHwZwGN7NsFvOPPm6GbIl~DKxRrUWtXg0HHFE1Ank6nnVfzQVf0aAAh5GcNT8~8Id5y3Wbh1VOFNWiuzUxSDtHzSlmzKz18jEW-Ix1O2lSMUHPTt40jZ6rsEQDfeGv1Tu0vcvEwefA8nC8G5CcdN6abhFDDDkW2hnQUWgaVGtniXEWJUqJB~WPAKKkF0JpZ7EQrsZKPSuwXWAAZJ3xkA9qbJbL2UMqCoYYNQmMTbwAc9Ox2uZGCbqzc0~HnKZKOhmk9EP9B2DEgytGOv2eVhHW2TD~HxUpMlfTrwZ6dzrbJZk2ZY~~scWR3B2-nqQIU9Fcd84j6Q__"
+              src="/images/services/aboutus-2nd-video.gif"
               alt="Financial services illustration"
               className="w-full"
             />
