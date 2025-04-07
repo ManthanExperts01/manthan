@@ -87,7 +87,7 @@ const HeroSection = () => {
           <div className="md:w-1/3 md:pl-8">
             <div className="bg-white rounded-lg p-6">
               <img
-                src="https://s3-alpha-sig.figma.com/img/fcdf/eb30/13770ad46783b68a6e8942a997634482?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=oHBgyVDiq1Fxfz~QINngN1fGCYB3JrkdJ9jnvCAfBk14pEB-OaLilmnCNe4rp6tFDjX4hgkG7TX5dSMprkt8SGMr7TuN6hzT5cRlFQ1I31Vi4T5zq2bxTa8fl77oWJc1mGNlXiu87Whb2e7VVp2BEDxeQIEwW0JwTUsXjRvSMKadVu7B1DdWu9M7IQ6CosD7yGqBUTQpgKYNbo9Ta~UTWPmFvP4pgZwtd9~aKRm91Yco6tFFfHBrX3arXwl4epzCUPC3vlz-ZzOapHxsERoNjxTchrjR9rOnsNS7rzP9Z0gSYrckyrHuZyOKCZVqhC36hmYiCz4B5WwU8~CuXL-V6Q__"
+                src="/images/services/aboutus-1st-video.gif"
                 alt="Financial services illustration"
                 className="w-full"
               />
