@@ -194,7 +194,7 @@ const TrustedPartnerSection = () => {
           <div className="md:w-1/3 md:pl-8">
             <div className="bg-white rounded-lg p-6">
               <img
-                src="https://s3-alpha-sig.figma.com/img/1655/0cd0/64b0faa6ef7b9a1778902e6f864b0fde?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jE~9PFbgF9Lf7teLFbNo4x-P-eMEDUTDt1glAwYLME5XECixV6VQoZEOKBKdT8CVqmEe4-WqWI~ZC6YXYfJFPYoAODw2lHhSVZVTuEDVe0LT5NjiMcFrcI~2pbraEopZtCyzYzTNNfFWKrkLk~ySFz8Ox03NGsk9Cz~btCCZym--mvcFXQ9sddLO5i1u~rdDbCSMFgBwRpxhq37X5Cpb7z6erzNt3SxnByeFO75paAjll2~VlcU0NsAKgpwoeGoWvXFC19zXIU6BMGe2EteuXnyquC0gYLFqLD1AH1LkQJJwN0S8Rukb5B087bPIOilWMy1O~sA9uYKUoDCQPkgZ5A__"
+                src="/images/services/aboutus-3rd-video.gif"
                 alt="Team collaboration illustration"
                 className="w-full"
               />
