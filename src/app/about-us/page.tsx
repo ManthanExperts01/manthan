@@ -425,7 +425,7 @@ const OurCommitmentExcellence = () => {
 
         <div className="flex justify-center">
         <img
-            src="https://s3-alpha-sig.figma.com/img/f164/c5ad/0d4e36dadf161906aa451647f5915802?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jtlyCeD50wGFOY0C20oK8~6tJBJIeEeQuCCmYgprlNx9MdiDXjRCFj7Nu0fyyu6pQ9yYYk2PPjqWpivpX8dLg-MOsAiNV2atxft3~HpLq3iSwJytCqCG0fmNXdvmMl2RiwfL0DVQNSJZxUi3n9S6JZhX3AzoXeK-I78KbqH4AaZLlm35wUQxW7mR77-REgb~pPs8EisN3TJ06l-vJNpMTLv1K8UTUhJBfk2DyVYUpNI9zVvSsltQ-1geHIxUVrexQjp8NzcDd6v7DLvE3ZPJLXC64u~YSdfjXl9yah-Ag1c-1e~OfRdI7g5r9QcEp-YzZlDfvgYyUZWwQRpmcWMaYQ__"
+            src="/images/services/aboutus-7th-video.gif"
             alt="Thumbs up illustration"
             className="max-w-xs"
           />
