@@ -223,7 +223,7 @@ const StressFreeTaxSection = () => {
 
         <div className="flex justify-center">
           <img
-            src="https://s3-alpha-sig.figma.com/img/2bdd/b0a0/7797fd5697cee85d9090e4b780be0b73?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fSCZ0yuG4k5Yra8Df~8mkleUSNp656KETDO7FiVfd0401-VfMdeaPa~aN2CyKeB-yWhGilyz-t-1P0vrgGqDJ~uyYNEecsXKk2MB84ztj5ZsZr5-a3FPNc3Co8jCMrQjKoAMS6CTRfsDNmbqM7AaTgIXRM~1fxCHj6kdbsi2Wrb5dkXNcyr5Hx4ZP5cHZGu3l48f-gJ6VcVGvQlh5QYpBvACcPRvsN2yAwUNHzeSjedONTqJxHcF~uxKosQsHzIMySLkA51CJbcS6libzY8GAsug7Pq0ln6hyKaiYmzWYHC8B936xHW1pQkL0mYxsDxz~hPR6eQ8AsVTeoOrAzJ~7g__"
+            src="aboutus-4th-video"
             alt="Tax solutions illustration"
             className="max-w-full"
           />
