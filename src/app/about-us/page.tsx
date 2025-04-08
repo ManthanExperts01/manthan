@@ -223,7 +223,7 @@ const StressFreeTaxSection = () => {
 
         <div className="flex justify-center">
           <img
-            src="aboutus-4th-video"
+            src="/images/services/aboutus-4th-video"
             alt="Tax solutions illustration"
             className="max-w-full"
           />
