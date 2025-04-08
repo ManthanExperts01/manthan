@@ -392,7 +392,7 @@ const WhyChooseSection = () => {
 
           <div className="md:w-1/3 md:pl-8 flex items-center justify-center">
             <img
-              src="https://s3-alpha-sig.figma.com/img/60e6/fa2c/8e736ba040fbe0e45a3327bc73fad521?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=m90cXggYHw4Ddo~i2ZBntPIKYdZI8tPAAl3qXEls2rv~NM5mMmG1Ioxd~nGPWGNTPE6mRhaMqukakZA6fWfD3fLUwiWfzAgGcJsvWu82akDmaIju7y7FhHxLwwPzCzCQoZxgqMCq5WoU7R3QfDRrav2MF~VGTdgxoSYG0ukNLnb-ZsQWJblAKIJpIF~yUeeTFrKt2mTOXbXKK3GVHCnmTF0j9CdU3Nvutaz3ryxsSkWmS~hpcGdHxEeFHUFIFwDWf5G4vrvfVEKP6FXEu8nTuQ5jIp3kO807bU30gYEsvtpiiv13LGpgaxgHNunVbjaENM6iaWIVU3ljZe-XHCqnhw__"
+              src="/images/services/aboutus-6th-video.gif"
               alt="Illustration of professional at work"
               className="w-full max-w-xs"
             />
