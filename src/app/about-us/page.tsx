@@ -321,7 +321,7 @@ const ExpertiseSection = () => {
           <div className="md:w-1/3 md:pl-8 flex items-center justify-center">
             <div className="bg-white rounded-lg p-6">
               <img
-                src="https://s3-alpha-sig.figma.com/img/db24/2962/cb05def0d9f72105537b1e6468d20cfb?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=i6E7RrOawCXuTODbh59h1zloy4Y4GAP0pKlMWDTxEm~zoqfdaJg0jq8DVw26bK6yfSWfuo0pmH82R4SAt1OIQPPgcKkP9p0kHnaTGjr~naNjctw5lNgndp3kblZvnUVc5VdpOpo4V3cemy5TIzwi5L5jrWXH~P0YK7bOncXUfUmtgheaMxfzY-GnOeAZP3sY~nF744ORStC9NOdRNDn-hmy9qMLgW~nb79OPn~jCupjSvOobW8m1Qjj3Jk8Nu~4wwhqlNweVQplwOt0NUHxs8KtEkAkho6NMxX5VbqL0TANrLraq4sa2JAJdocXslD9jIBHXjPWTw9VfjtKPrJ~c0w__"
+                src="/images/services/aboutus-5th-video.gif"
                 alt="Business meeting illustration"
                 className="w-full"
               />
