@@ -43,9 +43,6 @@ const PrivacyContent = () => {
     <div className="bg-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
         <div className="mb-12">
-          <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center text-[#052E26]">
-            Privacy Policy
-          </h1>
           <p className="text-lg mb-6">
             Welcome to Manthanam Experts Private Limited. This Privacy Policy explains how we collect, use, 
             protect, and disclose your personal information when you visit our website, 
