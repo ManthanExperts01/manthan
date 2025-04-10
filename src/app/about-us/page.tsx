@@ -71,7 +71,7 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-3/5 pr-0 md:pr-8">
             <p className="text-lg mb-6">
-              Manthan Experts specializes in delivering tailored financial and taxation consulting services. From Income
+              Manthanam Experts specializes in delivering tailored financial and taxation consulting services. From Income
               Tax, GST, and Accounting to Audit and Payroll Management, we offer comprehensive solutions. Whether you're
               launching a new business or expanding your business, our end-to-end services ensure compliance,
               efficiency, and long-term success.
@@ -102,7 +102,7 @@ const HeroSection = () => {
 // Section 2: Commitment Section
 const CommitmentSection = () => {
   const commitments = [
-    'At Manthan Experts, we are committed to simplifying tax compliance and financial management for businesses and individuals. Our expert team ensures seamless tax filing, accurate accounting, and timely compliance with regulations',
+    'At Manthanam Experts, we are committed to simplifying tax compliance and financial management for businesses and individuals. Our expert team ensures seamless tax filing, accurate accounting, and timely compliance with regulations',
     'We offer error-free and timely Income Tax Return (ITR) filing, helping individuals and businesses comply with tax laws efficiently. Our tax experts optimize your returns while ensuring 100% compliance.',
     'Our experienced professionals analyze your case, respond strategically, and provide end-to-end solutions to resolve tax disputes and notices effectively.',
     'We take care of GST registration, return filing, audits, and compliance, ensuring businesses meet their GST obligations smoothly. Stay compliant with our expert GST advisory and support.',
@@ -151,7 +151,7 @@ const CommitmentSection = () => {
 
         <div className="mt-12 text-center">
           <p className="text-gray-800">
-            At Manthan Experts, we believe in accuracy, compliance, and client-centric solutions. Our dedicated team
+            At Manthanam Experts, we believe in accuracy, compliance, and client-centric solutions. Our dedicated team
             ensures that businesses stay financially sound and legally compliant. We are more than just financial
             consultants – we are your trusted partners in success. With a deep understanding of financial regulations
             and industry best practices, we provide tailored solutions that ensure accuracy, compliance, and efficiency.
@@ -178,14 +178,14 @@ const TrustedPartnerSection = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-3/5 pr-0 md:pr-8">
             <p className="text-lg mb-6">
-              Since its establishment in 2013, Manthan Experts has grown into a trusted full-service accounting, tax,
+              Since its establishment in 2013, Manthanam Experts has grown into a trusted full-service accounting, tax,
               and audit firm, catering to businesses, entrepreneurs, and individuals across diverse industries. Our firm
               is built on a foundation of accuracy, integrity, and client-focused solutions, ensuring businesses meet
               their financial and regulatory obligations with ease.
             </p>
 
             <p className="text-lg">
-              Alongside a team of highly experienced partners, Manthan Experts brings together chartered accountants,
+              Alongside a team of highly experienced partners, Manthanam Experts brings together chartered accountants,
               tax consultants, and industry professionals with extensive expertise in taxation, accounting, and
               compliance.
             </p>
@@ -215,7 +215,7 @@ const StressFreeTaxSection = () => {
           <h1 className="text-3xl md:text-5xl font-bold mb-8">Your Gateway to Stress-Free Tax Solutions</h1>
 
           <p className="text-lg max-w-4xl mx-auto">
-            Navigating the complexities of taxation requires a trusted partner. Manthan Experts provides top-notch
+            Navigating the complexities of taxation requires a trusted partner. Manthanam Experts provides top-notch
             income tax filing services and ITR solutions, ensuring compliance, accuracy, and peace of mind for
             individuals and businesses alike.
           </p>
@@ -362,7 +362,7 @@ const WhyChooseSection = () => {
     <div className="bg-white p-8 md:p-16">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">
-          Why Choose <span className="text-green-600">Manthan Experts</span>?
+          Why Choose <span className="text-green-600">Manthanam Experts</span>?
         </h2>
 
         <div className="flex flex-col md:flex-row mb-16">
@@ -412,7 +412,7 @@ const OurCommitmentExcellence = () => {
         </h2>
 
         <p className="text-center mb-8">
-          At Manthan Experts, we uphold the highest standards of professionalism, integrity, and accountability. Our
+          At Manthanam Experts, we uphold the highest standards of professionalism, integrity, and accountability. Our
           mission is to exceed client expectations by delivering reliable, high-quality, and innovative accounting, tax,
           and audit services. Our professionals continually enhance their knowledge to provide solutions that are not only
           accurate but also strategically aligned with our clients' financial goals.
@@ -424,7 +424,7 @@ const OurCommitmentExcellence = () => {
         </p>
 
         <div className="flex justify-center">
-        <img
+          <img
             src="/images/services/aboutus-7th-video.gif"
             alt="Thumbs up illustration"
             className="max-w-xs"

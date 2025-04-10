@@ -96,7 +96,7 @@ const Footer = () => {
                   />
                 </div>
                 <p className="text-justify hyphens-none">
-                  Manthan Experts provides expert tax and financial services in India,
+                  Manthan Experts (Formerly known as Manthanam Experts Pvt Ltd.) provides expert tax and financial services in India,
                   specializing in ITR e-filing, Income Tax Notices, GST Services, Accounting, Audit, and Payroll.
                   Our skilled team ensures accuracy, compliance, and efficiency, offering tailored solutions for
                   seamless tax filing and financial management to meet the unique needs of businesses and individuals.
@@ -184,7 +184,7 @@ const Footer = () => {
                       <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
                     </svg>
                   </span>
-                  Manthan Experts A-92 C, 2nd Floor, Building 3, Namberdar Estates, New Friends Colony Delhi- 110065
+                  Manthanam Experts Pvt Ltd. A-92 C, 2nd Floor, Building 3, Namberdar Estates, New Friends Colony Delhi- 110065
                 </p>
                 <p className="mb-4 flex items-center justify-center md:justify-start">
                   <IconMail stroke={2} size={20} className="me-3" />
