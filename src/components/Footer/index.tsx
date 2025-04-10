@@ -216,7 +216,7 @@ const Footer = () => {
 
           <div className="bg-black/5 p-6 text-center">
             <span>© 2024 Copyright:</span>
-            <span> Manthan Experts (known as Manthanam Experts Pvt Ltd.)</span>
+            <span> Manthan Experts (Formerly known as Manthanam Experts Pvt Ltd.)</span>
           </div>
         </div>
       </footer>
