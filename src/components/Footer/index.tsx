@@ -160,12 +160,18 @@ const Footer = () => {
                   <p className="mb-4">
                     <LinkWithAnimation href="https://www.incometax.gov.in/iec/foportal/help/refund_status_user_manual" LinkText="Tax Refund Status" className="text-white after:bg-white" />
                   </p>
-                  <p>
+                  <p className="mb-4">
                     <LinkWithAnimation
                       href="https://eportal.incometax.gov.in/iec/foservices/#/pre-login/link-aadhaar-status"
                       LinkText="PAN Aadhar Link Status"
                       className="text-white after:bg-white"
                     />
+                  </p>
+                  <p className="mb-4">
+                    <LinkWithAnimation href="/terms-and-conditions" LinkText="Terms and Conditions" className="text-white after:bg-white" />
+                  </p>
+                  <p className="mb-4">
+                    <LinkWithAnimation href="/privacy-policy" LinkText="Privacy Policy" className="text-white after:bg-white" />
                   </p>
                 </div>
               </div>
