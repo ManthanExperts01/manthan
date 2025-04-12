@@ -35,6 +35,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html suppressHydrationWarning lang="en">
       <head>
+      <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Manthan Experts",
+              "url": "https://www.manthanexperts.com/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.manthanexperts.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }),
+          }}
+        />
       <link rel="canonical" href="https://www.manthanexperts.com/" />
         {/* Google Tag Manager script */}
         <script
