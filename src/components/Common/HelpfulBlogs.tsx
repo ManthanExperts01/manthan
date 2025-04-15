@@ -13,7 +13,7 @@ const HelpfulBlogs = ({ title, contents, lists }: HelpfulBlogsProps) => {
     <section className="container">
       <div className="lg:flex lg:items-center lg:justify-center">
         <div className="w-full h-[490px] bg-[url('/images/helpful-blogs.png')] bg-cover">
-          <div className="w-10/12 mx-auto mt-12  px-4 py-8 rounded-lg text-black  bg-white">
+          <div className="w-10/12 mx-auto mt-12  px-4 py-8 rounded-lg text-black  bg-white/80">
             <h5 className="font-bold text-center text-4xl mb-5">{title}</h5>
             {contents.map((content, i) => (
               <p key={i}>{content}</p>
