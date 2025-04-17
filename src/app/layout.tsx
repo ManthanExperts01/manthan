@@ -38,17 +38,37 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
+            __html: `
+            {
               "@context": "https://schema.org",
-              "@type": "WebSite",
+              "@type": "AccountingService",
               "name": "Manthan Experts",
+              "image": "",
+              "@id": "",
               "url": "https://www.manthanexperts.com/",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://www.manthanexperts.com/search?q={search_term_string}",
-                "query-input": "required name=search_term_string"
-              }
-            }),
+              "telephone": "+91-9643-969-969",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "A-92 C, 2nd Floor, Building 3, Namberdar Estates, New Friends Colony",
+                "addressLocality": "New Delhi",
+                "postalCode": "110065",
+                "addressCountry": "IN"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 28.5705492,
+                "longitude": 77.2686442
+              },
+              "sameAs": [
+                "https://www.facebook.com/manthanexperts1",
+                "https://x.com/ManthanExperts",
+                "https://www.instagram.com/manthan_experts",
+                "https://www.youtube.com/channel/UCwXMeuaMTCfAIsdLj4iyRjA",
+                "https://www.linkedin.com/in/manthan-experts-19a9a31ab/",
+                "https://www.manthanexperts.com/"
+              ]
+            }
+            `
           }}
         />
       <link rel="canonical" href="https://www.manthanexperts.com/" />
