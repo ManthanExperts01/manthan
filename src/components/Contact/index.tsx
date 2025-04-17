@@ -99,7 +99,7 @@ const Contact = ({ classNameContainer, headline }: ContactProps) => {
   return (
     <div className={classNameContainer}>
       <PopUp openPopUp={openPopup} closePopUp={HandleRemovePopUp} popUpTextToShow={popUpTextToShow} />
-      <div className="contact-form-bg mx-auto w-full bg-white px-4 py-2 lg:px-6 xl:max-w-[540px] xl:py-10 ">
+      <div className="contact-form-bg mx-auto w-full bg-white/80 px-4 py-2 lg:px-6 xl:max-w-[540px] xl:py-10 ">
         {headline && (
           <Headline
             header={headline}
