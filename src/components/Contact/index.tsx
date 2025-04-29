@@ -126,7 +126,7 @@ const Contact = ({ classNameContainer, headline }: ContactProps) => {
                     name="name"
                     id="name"
                     placeholder="Name"
-                    className="mt-1 block h-[50px] w-full border-2 border-border px-4 opacity-50 hover:opacity-100 focus:opacity-100"/>
+                    className="mt-1 block h-[50px] w-full border-2 border-border px-4"/>
                   <div className="text-red-500">
                     <ErrorMessage name="name" component="div" />
                   </div>
