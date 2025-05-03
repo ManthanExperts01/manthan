@@ -102,7 +102,7 @@ const Header = () => {
                                 href={href2 as string}
                                 onClick={() => (isToggleMenuOpen ? handleToggleMenuOnClick() : handleMouseLeave(index))}
                               >
-                                <img src={`/images/navbarServices/${iconSrc}.png`} className='w-5'/>
+                                <img src={`/images/navbarServices/${iconSrc}.png`} className='w-5' alt='NavIcons'/>
                                 <div className="font-bold">
                                   {label2}
                                 </div>
