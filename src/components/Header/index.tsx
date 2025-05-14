@@ -8,10 +8,11 @@ import Logo from '@/components/Common/Logo';
 import ToggleMenu from '@/components/Common/ToggleMenu';
 import CTA from '../Common/CTA';
 import { CallToActionType } from '@/types/faq';
-import { headerData } from '@/shared/header.data';
+import { useHeaderData } from '@/shared/header.data';
 import TopHeader from '../TopHeader';
 
 const Header = () => {
+  const headerData = useHeaderData();
   const { links, actions, isSticky, showToggleTheme, showRssFeed, position } = headerData;
 
   const updatedIsDropdownOpen =
