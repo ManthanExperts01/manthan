@@ -14,6 +14,7 @@ import TopHeader from '../TopHeader';
 const Header = () => {
   const headerData = useHeaderData();
   const { links, actions, isSticky, showToggleTheme, showRssFeed, position } = headerData;
+  
 
   const updatedIsDropdownOpen =
     links &&
