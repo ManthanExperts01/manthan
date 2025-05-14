@@ -1,14 +1,12 @@
+
 import { IconChevronDown } from "@tabler/icons-react";
 import { HeaderProps, Icon } from '@/types/faq';
-import { useRouter } from 'next/router';
-import { useMemo } from 'react';
 
-// Original headerData object
 export const headerData: HeaderProps = {
   links: [
     {
       label: "About Us",
-      href: "/about-us",
+      href: "/about-us", // Change to absolute path
     },
     {
       label: "Our Services",
@@ -44,8 +42,13 @@ export const headerData: HeaderProps = {
           href: "/services/payroll-pf-esic",
           iconSrc: "payroll"
         },
+      
       ],
     },
+    // {
+    //   label: "Pricing",
+    //   href: "/#pricing-section", // Change to absolute path
+    // },
     {
       label: "Contact Us",
       href: "/contact",
@@ -54,6 +57,21 @@ export const headerData: HeaderProps = {
       label: "Blogs",
       href: "/blogs",
     },
+    // {
+    //   label: "Knowledge Center",
+    //   icon: IconChevronDown as Icon,
+    //   links: [
+    //     {
+    //       label: "Blogs",
+    //       href: "/services",
+    //     },
+    //     {
+    //       label: "News",
+    //       href: "/news",
+    //     },
+      
+    //   ],
+    // },
   ],
   actions: [
     {
@@ -67,30 +85,3 @@ export const headerData: HeaderProps = {
   showRssFeed: false,
   position: "center",
 };
-
-// Custom hook to get dynamic header data with Home link when not on home page
-export function useHeaderData() {
-  const router = useRouter();
-  
-  return useMemo(() => {
-    // Check if we're on the home page
-    const isHomePage = router.pathname === '/' || router.pathname === '/index';
-    
-    // If we're on the home page, return the original data without modifications
-    if (isHomePage) {
-      return headerData;
-    }
-    
-    // If we're on any other page, add the Home link at the beginning
-    return {
-      ...headerData,
-      links: [
-        {
-          label: "Home",
-          href: "/",
-        },
-        ...headerData.links,
-      ],
-    };
-  }, [router.pathname]);
-}
