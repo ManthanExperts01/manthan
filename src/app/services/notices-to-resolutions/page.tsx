@@ -14,7 +14,7 @@ import { Metadata } from 'next';
 import { SITE } from '@/utils/site';
 
 export const metadata: Metadata = {
-  title: 'From Notices to Resolutions - All Services',
+  title: 'Income Tax consultancy',
   description: SITE.description,
   twitter: {
     card: 'summary_large_image',
