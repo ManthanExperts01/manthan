@@ -68,7 +68,7 @@ const helpfulBlogsData = {
     },
     {
       label: 'Reverse Charge Machenism (RCM)',
-      href: '/articles-link',
+      href: '/reverse-charge-mechanism-rcm-under-gst-a-complete-guide',
     },
   ],
 };
