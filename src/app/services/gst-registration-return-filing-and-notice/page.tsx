@@ -60,11 +60,11 @@ const helpfulBlogsData = {
     },
     {
       label: 'Composition Scheme',
-      href: '/articles-link',
+      href: '/gst-composition-scheme-benefits-eligibility-and-registration-process',
     },
     {
       label: 'Input Tax Credit',
-      href: '/articles-link',
+      href: '/understanding-input-tax-credit-itc-under-gst',
     },
     {
       label: 'Reverse Charge Machenism (RCM)',
