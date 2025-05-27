@@ -52,11 +52,11 @@ const helpfulBlogsData = {
   lists: [
     {
       label: 'GST Registration, Process, Eligibility & Documents Required',
-      href: '/articles-link',
+      href: '/gst-registration-process-eligibility--documents-required',
     },
     {
       label: 'GST Returns',
-      href: '/articles-link',
+      href: '/what-are-gst-returns-types-of-gst-return-forms-filing-dates',
     },
     {
       label: 'Composition Scheme',
