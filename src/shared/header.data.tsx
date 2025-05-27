@@ -5,6 +5,10 @@ import { HeaderProps, Icon } from '@/types/faq';
 export const headerData: HeaderProps = {
   links: [
     {
+      label: "Home",
+      href: "/",
+    },
+    {
       label: "About Us",
       href: "/about-us", // Change to absolute path
     },
