@@ -58,7 +58,7 @@ const helpfulBlogsData = {
   lists: [
     {
       label: 'Accounting & Bookkeeping Tips to Keep Your Finances in Check',
-      href: '/articles-link',
+      href: '/accounting--bookkeeping-tips-to-keep-your-finances-in-check',
     },
   ],
 };
