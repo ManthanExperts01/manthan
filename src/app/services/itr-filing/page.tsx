@@ -15,8 +15,8 @@ import { SITE } from '@/utils/site';
 import Pricing from '@/components/Pricing';
 
 export const metadata: Metadata = {
-  title: 'ITR Filing Services in Delhi – Manthan Experts',
-  description: 'Get accurate & fast ITR filing services in Delhi NCR with expert tax consultants. Affordable pricing, free consultation & timely income tax return filing.',
+  title: 'ITR Filing Services in Delhi',
+  description: 'Get accurate and fast ITR filing services in Delhi NCR with expert tax consultants. Affordable pricing, free consultation & timely income tax return filing.',
   twitter: {
     card: 'summary_large_image',
   },
