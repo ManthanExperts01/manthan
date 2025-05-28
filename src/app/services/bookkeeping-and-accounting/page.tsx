@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
   },
+  alternates: {
+    canonical: 'https://www.manthanexperts.com/services/bookkeeping-and-accounting',
+  }
 };
 
 const heroBannerData = {
