@@ -71,7 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             `
           }}
         />
-      <link rel="canonical" href="https://www.manthanexperts.com/" />
+      
         {/* Google Tag Manager script */}
         <script
           dangerouslySetInnerHTML={{
