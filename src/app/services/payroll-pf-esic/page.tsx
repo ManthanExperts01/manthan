@@ -14,8 +14,8 @@ import { Metadata } from 'next';
 import { SITE } from '@/utils/site';
 
 export const metadata: Metadata = {
-  title: 'Payroll Services (PF & ESIC)',
-  description: SITE.description,
+  title: 'Payroll Management Services in Delhi',
+  description: 'Simplify payroll, PF & ESIC with expert HR solutions in Delhi, Gurugram, Noida, Faridabad, Ghaziabad. Accurate salary processing, compliance and timely filings for small and mid-size businesses.',
   twitter: {
     card: 'summary_large_image',
   },

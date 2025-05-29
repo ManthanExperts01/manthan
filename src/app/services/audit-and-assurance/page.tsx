@@ -14,8 +14,8 @@ import { Metadata } from 'next';
 import { SITE } from '@/utils/site';
 
 export const metadata: Metadata = {
-  title: 'Audit & Assurance Services',
-  description: SITE.description,
+  title: 'Audit and Assurance Services in Delhi',
+  description: 'Get reliable audit and assurance services for Pvt Ltd, LLPs and firms in Delhi, Noida and Gurugram. Ensure financial accuracy and compliance with expert auditors.',
   twitter: {
     card: 'summary_large_image',
   },

@@ -16,7 +16,7 @@ import Pricing from '@/components/Pricing';
 
 export const metadata: Metadata = {
   title: 'ITR Filing Services in Delhi',
-  description: 'Get accurate and fast ITR filing services in Delhi NCR with expert tax consultants. Affordable pricing, free consultation & timely income tax return filing.',
+  description: 'Get accurate and fast ITR filing services in Delhi, Gurugram, Noida, Faridabad, Ghaziabad with expert tax consultants. Affordable pricing, free consultation and timely income tax return filing.',
   twitter: {
     card: 'summary_large_image',
   },

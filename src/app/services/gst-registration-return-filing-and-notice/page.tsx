@@ -14,8 +14,8 @@ import { Metadata } from 'next';
 import { SITE } from '@/utils/site';
 
 export const metadata: Metadata = {
-  title: 'GST Registration, Return Filing and Notice Services',
-  description: SITE.description,
+  title: 'GST Registration and Filing Services in Delhi',
+  description: 'Expert GST registration and monthly return filing for businesses in Delhi, Noida, Gurugram and Faridabad. Get fast, compliant GST services at affordable rates.',
   twitter: {
     card: 'summary_large_image',
   },

@@ -14,8 +14,8 @@ import { Metadata } from 'next';
 import { SITE } from '@/utils/site';
 
 export const metadata: Metadata = {
-  title: 'Income Tax consultancy',
-  description: 'Get professional assistance for income tax notices and demands. Quick assessment, accurate replies and complete support for Delhi, Noida, Gurugram, Faridabad residents. Book a consultation now!',
+  title: 'Income Tax Notice and Demand Reply Services in Delhi',
+  description: 'Received an income tax notice or demand letter? Get expert help in Delhi, Gurugram, Noida, Faridabad, Ghaziabad for timely response, rectification, and resolution of tax notices and demands.',
   twitter: {
     card: 'summary_large_image',
   },

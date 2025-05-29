@@ -14,8 +14,8 @@ import { Metadata } from 'next';
 import { SITE } from '@/utils/site';
 
 export const metadata: Metadata = {
-  title: 'Bookkeeping & Accounting Services',
-  description: SITE.description,
+  title: 'Accounting and Bookkeeping Services in Delhi',
+  description: 'Professional accounting services for startups and SMEs in Delhi, Gurugram, Noida, Faridabad, Ghaziabad. Get clean books, monthly reports and full compliance from expert accountants.',
   twitter: {
     card: 'summary_large_image',
   },
