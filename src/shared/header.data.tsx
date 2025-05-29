@@ -17,7 +17,7 @@ export const headerData: HeaderProps = {
       icon: IconChevronDown as Icon,
       links: [
         {
-          label: "ITR e-Filling",
+          label: "ITR e-Filing",
           href: "/services/itr-filing",
           iconSrc: "itr"
         },

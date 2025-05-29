@@ -254,7 +254,7 @@ Have Partnered With Us.`,
       name: 'Roshan James',
       designation: 'ITR Filer',
       content:
-        'you guys providing me a perfect experience filling this years and previous year tax.',
+        'you guys providing me a perfect experience filing this years and previous year tax.',
       image: '/images/manthan-exprerts/testimonials/leena.png',
       star: 5,
     },

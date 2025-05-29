@@ -108,7 +108,7 @@ const Footer = () => {
                   <p className="mb-4">
                     <LinkWithAnimation
                       href="/services/itr-filing"
-                      LinkText="ITR e-Filling "
+                      LinkText="ITR e-Filing "
                       className="text-white after:bg-white"
                     />
                   </p>

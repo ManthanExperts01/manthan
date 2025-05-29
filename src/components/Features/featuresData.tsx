@@ -3,7 +3,7 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    title: "Income Tax Return e-Filling",
+    title: "Income Tax Return e-Filing",
     serviceNumber: "01",
     paragraph:
       "Our Team Carefully Revies Your Financial Documents To Ensure Compliance With Constantly Evolving Tax Laws, Making Sure Your Income Tax Returns are Filed Smoothly And Error-Free.",
